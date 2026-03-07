@@ -1,6 +1,13 @@
 import os
 import sys
 
+# Ensure the package directory is on sys.path so bare imports
+# (e.g. "from database import db") work when the process cwd is
+# elsewhere — which is the case on PythonAnywhere.
+_THIS_DIR = os.path.dirname(os.path.abspath(__file__))
+if _THIS_DIR not in sys.path:
+    sys.path.insert(0, _THIS_DIR)
+
 from flask import Flask
 from database import db, init_db
 from web.routes import register_routes
