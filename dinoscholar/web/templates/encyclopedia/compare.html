@@ -1,0 +1,131 @@
+{% extends "base.html" %}
+{% block title %}Compare Species — DinoScholar{% endblock %}
+{% block content %}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ url_for('encyclopedia.list_species') }}">Encyclopedia</a></li>
+        <li class="breadcrumb-item active">Compare</li>
+    </ol>
+</nav>
+
+<h1>Compare Species</h1>
+
+<form method="get" class="mb-4">
+    <div class="row g-2 align-items-end">
+        {% for i in range(4) %}
+        <div class="col-md-3">
+            <label class="form-label">Species {{ i + 1 }}{% if i >= 2 %} (optional){% endif %}</label>
+            <select name="species" class="form-select">
+                <option value="">— Select —</option>
+                {% for sp in all_species %}
+                <option value="{{ sp.id }}" {% if sp.id in selected_ids %}selected{% endif %}>{{ sp.scientific_name }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        {% endfor %}
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Compare</button>
+</form>
+
+{% if result %}
+<h2>Comparison</h2>
+
+<div class="table-responsive mb-4">
+<table class="table table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>Trait</th>
+            {% for sp in result.species %}
+            <th><em>{{ sp.scientific_name }}</em></th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Period</td>
+            {% for sp in result.species %}<td>{{ sp.period }}</td>{% endfor %}
+        </tr>
+        <tr>
+            <td>Diet</td>
+            {% for sp in result.species %}<td>{{ sp.diet|capitalize }}</td>{% endfor %}
+        </tr>
+        <tr>
+            <td>Length</td>
+            {% for sp in result.species %}<td>{{ sp.length_m }} m</td>{% endfor %}
+        </tr>
+        <tr>
+            <td>Height</td>
+            {% for sp in result.species %}<td>{{ sp.height_m }} m</td>{% endfor %}
+        </tr>
+        <tr>
+            <td>Weight</td>
+            {% for sp in result.species %}<td>{{ sp.weight_kg|int }} kg</td>{% endfor %}
+        </tr>
+        <tr>
+            <td>Locomotion</td>
+            {% for sp in result.species %}<td>{{ sp.locomotion|capitalize }}</td>{% endfor %}
+        </tr>
+        <tr>
+            <td>Order</td>
+            {% for sp in result.species %}<td>{{ sp.order }}</td>{% endfor %}
+        </tr>
+        <tr>
+            <td>Family</td>
+            {% for sp in result.species %}<td>{{ sp.family }}</td>{% endfor %}
+        </tr>
+    </tbody>
+</table>
+</div>
+
+<h3>Size Comparison</h3>
+{% set max_length = result.species|map(attribute='length_m')|max %}
+{% set max_weight = result.species|map(attribute='weight_kg')|max %}
+{% for sp in result.species %}
+<div class="mb-3">
+    <strong>{{ sp.scientific_name }}</strong>
+    <div class="d-flex gap-2 mt-1">
+        <div style="flex: 1;">
+            <small>Length</small>
+            <div class="progress" style="height: 22px;">
+                <div class="progress-bar bg-info" style="width: {{ (sp.length_m / max_length * 100) if max_length else 0 }}%">{{ sp.length_m }}m</div>
+            </div>
+        </div>
+        <div style="flex: 1;">
+            <small>Weight</small>
+            <div class="progress" style="height: 22px;">
+                <div class="progress-bar bg-danger" style="width: {{ (sp.weight_kg / max_weight * 100) if max_weight else 0 }}%">{{ sp.weight_kg|int }}kg</div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+{% if result.shared_traits %}
+<h3>Shared Traits</h3>
+<ul>
+{% for trait in result.shared_traits %}
+    <li>{{ trait }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if result.differences %}
+<h3>Key Differences</h3>
+{% for diff in result.differences %}
+<p><strong>{{ diff.trait }}:</strong>
+{% for name, val in diff["values"].items() %}
+    {{ name }} = {{ val }}{% if not loop.last %}, {% endif %}
+{% endfor %}
+</p>
+{% endfor %}
+{% endif %}
+
+{% if result.evolutionary_note %}
+<h3>Evolutionary Relationship</h3>
+<p>{{ result.evolutionary_note }}</p>
+{% endif %}
+
+{% elif selected_ids %}
+<div class="alert alert-warning">Please select at least 2 species to compare.</div>
+{% endif %}
+{% endblock %}

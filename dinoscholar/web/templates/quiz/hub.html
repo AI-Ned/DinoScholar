@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Quiz — DinoScholar{% endblock %}
+{% block content %}
+<h1>Quiz Hub</h1>
+<p class="text-muted">Test your knowledge with different quiz modes.</p>
+
+<div class="row g-4 mt-2">
+    <div class="col-md-4">
+        <div class="card h-100 border-warning">
+            <div class="card-body">
+                <h3>📅 Daily Challenge</h3>
+                <p>10 questions across all topics. Same challenge for everyone today.</p>
+                <a href="{{ url_for('quiz.daily_challenge') }}" class="btn btn-warning">Start</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100 border-danger">
+            <div class="card-body">
+                <h3>⏱️ Timed Quiz</h3>
+                <p>20 questions in 5 minutes. How much do you really know?</p>
+                <a href="{{ url_for('quiz.timed_quiz') }}" class="btn btn-danger">Start</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100 border-primary">
+            <div class="card-body">
+                <h3>📚 Module Quiz</h3>
+                <p>Review questions from a specific module.</p>
+                {% if modules %}
+                <div class="list-group mt-2">
+                {% for m in modules %}
+                    <a href="{{ url_for('quiz.module_quiz', module_id=m.id) }}" class="list-group-item list-group-item-action">{{ m.title }}</a>
+                {% endfor %}
+                </div>
+                {% else %}
+                <p class="text-muted">No modules available yet.</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

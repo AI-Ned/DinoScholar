@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Learning Modules — DinoScholar{% endblock %}
+{% block content %}
+<h1>Learning Modules</h1>
+<p class="text-muted">Structured courses covering paleontology, dinosaur science, and the methods behind the discoveries.</p>
+
+{% if module_progress %}
+<div class="row g-4 mt-2">
+{% for mp in module_progress %}
+<div class="col-md-6">
+    <div class="card h-100">
+        <div class="card-body">
+            <h4><a href="{{ url_for('learning.module_detail', module_id=mp.module.id) }}">{{ mp.module.title }}</a></h4>
+            <p>{{ mp.module.description[:200] }}{% if mp.module.description|length > 200 %}...{% endif %}</p>
+            <div class="d-flex justify-content-between mb-1">
+                <small>{{ mp.completed }}/{{ mp.total }} lessons</small>
+                <small>{{ mp.percent }}%</small>
+            </div>
+            <div class="progress" style="height: 10px;">
+                <div class="progress-bar bg-success" style="width: {{ mp.percent }}%"></div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+</div>
+{% else %}
+<p class="text-muted">No modules available yet.</p>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,1028 @@
+[
+  {
+    "id": "tyrannosaurus-rex",
+    "scientific_name": "Tyrannosaurus rex",
+    "common_name": "Tyrant Lizard King",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Tyrannosauridae", "genus": "Tyrannosaurus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 68.0, "end_mya": 66.0},
+    "diet": "carnivore",
+    "size": {"length_m": 12.3, "height_m": 3.7, "weight_kg": 8400},
+    "locomotion": "bipedal",
+    "fossil_locations": ["North America — Montana", "North America — South Dakota", "North America — Wyoming", "North America — Alberta"],
+    "description": "Tyrannosaurus rex is one of the most iconic dinosaurs ever discovered. As one of the largest land predators in Earth's history, it dominated the ecosystems of western North America during the final two million years of the Cretaceous period. Its massive skull housed powerful jaws capable of crushing bone, and its binocular vision gave it excellent depth perception for hunting. Despite its fearsome reputation, ongoing research continues to reveal new aspects of its biology, including evidence of feathered relatives and surprisingly sophisticated sensory abilities.",
+    "fun_facts": [
+      "T. rex had a bite force estimated at over 12,800 pounds — enough to crush a car.",
+      "Its tiny arms could still lift about 400 pounds each.",
+      "T. rex likely had excellent night vision based on its large eye sockets.",
+      "The largest known T. rex specimen, 'Scotty', weighed an estimated 8,870 kg."
+    ],
+    "related_species": ["tarbosaurus-bataar", "albertosaurus-sarcophagus", "gorgosaurus-libratus"]
+  },
+  {
+    "id": "triceratops-horridus",
+    "scientific_name": "Triceratops horridus",
+    "common_name": "Three-Horned Face",
+    "classification": {"order": "Ornithischia", "suborder": "Ceratopsia", "family": "Ceratopsidae", "genus": "Triceratops"},
+    "period": {"name": "Late Cretaceous", "start_mya": 68.0, "end_mya": 66.0},
+    "diet": "herbivore",
+    "size": {"length_m": 9.0, "height_m": 3.0, "weight_kg": 6000},
+    "locomotion": "quadrupedal",
+    "fossil_locations": ["North America — Montana", "North America — South Dakota", "North America — Wyoming", "North America — Colorado"],
+    "description": "Triceratops is one of the most recognizable dinosaurs thanks to its three distinctive facial horns and large bony frill. Living during the very end of the Cretaceous period, it was among the last non-avian dinosaurs to exist before the mass extinction event. Its powerful beak and dental batteries were adapted for processing tough vegetation. The function of its horns and frill has been debated — they may have served for defense against predators like T. rex, intra-species combat, thermoregulation, or species recognition.",
+    "fun_facts": [
+      "Triceratops fossils are among the most commonly found dinosaur remains in North America.",
+      "Its frill was made of solid bone and could span over 2 metres wide.",
+      "Triceratops teeth were arranged in batteries of 36-40 columns, with 3-5 teeth stacked in each column.",
+      "Some Triceratops skulls show healed bite marks from T. rex, evidence of predator-prey encounters."
+    ],
+    "related_species": ["torosaurus-latus", "styracosaurus-albertensis"]
+  },
+  {
+    "id": "velociraptor-mongoliensis",
+    "scientific_name": "Velociraptor mongoliensis",
+    "common_name": "Swift Thief",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Dromaeosauridae", "genus": "Velociraptor"},
+    "period": {"name": "Late Cretaceous", "start_mya": 75.0, "end_mya": 71.0},
+    "diet": "carnivore",
+    "size": {"length_m": 2.0, "height_m": 0.5, "weight_kg": 15},
+    "locomotion": "bipedal",
+    "fossil_locations": ["Asia — Mongolia", "Asia — China"],
+    "description": "Velociraptor was a small but agile predator that lived in the arid environments of Late Cretaceous Mongolia. Far smaller than its portrayal in popular media, it was roughly the size of a large turkey. It possessed a large sickle-shaped claw on each foot used for pinning prey. Quill knobs on its forearm bones confirm it had feathers, making it a key species in understanding the evolutionary link between dinosaurs and modern birds.",
+    "fun_facts": [
+      "The real Velociraptor was only about 0.5 metres tall — much smaller than shown in movies.",
+      "Quill knobs on its arm bones prove it had feathers.",
+      "The famous 'Fighting Dinosaurs' fossil shows a Velociraptor locked in combat with a Protoceratops.",
+      "Its sickle claw could be up to 6.5 cm long."
+    ],
+    "related_species": ["deinonychus-antirrhopus", "utahraptor-ostrommaysi"]
+  },
+  {
+    "id": "stegosaurus-stenops",
+    "scientific_name": "Stegosaurus stenops",
+    "common_name": "Roofed Lizard",
+    "classification": {"order": "Ornithischia", "suborder": "Thyreophora", "family": "Stegosauridae", "genus": "Stegosaurus"},
+    "period": {"name": "Late Jurassic", "start_mya": 155.0, "end_mya": 150.0},
+    "diet": "herbivore",
+    "size": {"length_m": 9.0, "height_m": 4.0, "weight_kg": 3100},
+    "locomotion": "quadrupedal",
+    "fossil_locations": ["North America — Colorado", "North America — Wyoming", "North America — Utah"],
+    "description": "Stegosaurus is instantly recognizable by its double row of distinctive kite-shaped plates along its back and the four sharp spikes on its tail (known as the thagomizer). Living during the Late Jurassic, it was one of the most common large herbivores of its time. The function of its plates remains debated — hypotheses include thermoregulation, display, and defence. Its brain was famously small relative to its body size, roughly the size of a walnut.",
+    "fun_facts": [
+      "The tail spikes are called the 'thagomizer', a term coined by cartoonist Gary Larson.",
+      "Stegosaurus had a brain roughly the size of a walnut, about 80 grams.",
+      "Its plates had extensive blood vessel networks, suggesting a thermoregulatory function.",
+      "The gap between Stegosaurus and T. rex is greater than the gap between T. rex and humans."
+    ],
+    "related_species": ["kentrosaurus-aethiopicus"]
+  },
+  {
+    "id": "brachiosaurus-altithorax",
+    "scientific_name": "Brachiosaurus altithorax",
+    "common_name": "Arm Lizard",
+    "classification": {"order": "Saurischia", "suborder": "Sauropodomorpha", "family": "Brachiosauridae", "genus": "Brachiosaurus"},
+    "period": {"name": "Late Jurassic", "start_mya": 154.0, "end_mya": 150.0},
+    "diet": "herbivore",
+    "size": {"length_m": 22.0, "height_m": 12.0, "weight_kg": 56000},
+    "locomotion": "quadrupedal",
+    "fossil_locations": ["North America — Colorado", "Africa — Tanzania"],
+    "description": "Brachiosaurus was one of the tallest and largest dinosaurs ever discovered. Unlike most sauropods, its front legs were longer than its rear legs, giving it a distinctive upward-sloping posture — an adaptation for high browsing. It could reach vegetation over 9 metres above the ground. This massive herbivore needed to consume enormous quantities of plant matter daily, potentially over 400 kg. Its nostrils were positioned high on its skull, though the once-popular idea that it was aquatic has been thoroughly debunked.",
+    "fun_facts": [
+      "Brachiosaurus could reach heights of 12 metres — taller than a four-storey building.",
+      "It may have consumed over 400 kg of vegetation per day.",
+      "Its front legs were longer than its hind legs, unlike most other sauropods.",
+      "A single Brachiosaurus vertebra could be over 1 metre long."
+    ],
+    "related_species": ["giraffatitan-brancai"]
+  },
+  {
+    "id": "spinosaurus-aegyptiacus",
+    "scientific_name": "Spinosaurus aegyptiacus",
+    "common_name": "Spine Lizard",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Spinosauridae", "genus": "Spinosaurus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 99.0, "end_mya": 94.0},
+    "diet": "carnivore",
+    "size": {"length_m": 15.0, "height_m": 5.0, "weight_kg": 7400},
+    "locomotion": "bipedal",
+    "fossil_locations": ["Africa — Egypt", "Africa — Morocco"],
+    "description": "Spinosaurus is the largest known carnivorous dinosaur, potentially exceeding even Tyrannosaurus rex in length. Its most distinctive feature is the tall neural spines on its back vertebrae, which formed a sail-like structure up to 1.7 metres tall. Recent discoveries have revolutionized our understanding of this animal: its paddle-like tail, dense bones, and crocodilian snout indicate it was semi-aquatic, spending significant time hunting fish in rivers. This makes it unique among large theropods.",
+    "fun_facts": [
+      "Spinosaurus is the largest known carnivorous dinosaur at roughly 15 metres long.",
+      "Its conical teeth were adapted for catching fish, not tearing flesh.",
+      "Dense bones helped it control buoyancy while swimming.",
+      "The original Spinosaurus fossils were destroyed in WWII bombing of Munich."
+    ],
+    "related_species": ["baryonyx-walkeri", "suchomimus-tenerensis"]
+  },
+  {
+    "id": "ankylosaurus-magniventris",
+    "scientific_name": "Ankylosaurus magniventris",
+    "common_name": "Fused Lizard",
+    "classification": {"order": "Ornithischia", "suborder": "Thyreophora", "family": "Ankylosauridae", "genus": "Ankylosaurus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 68.0, "end_mya": 66.0},
+    "diet": "herbivore",
+    "size": {"length_m": 8.0, "height_m": 1.7, "weight_kg": 6000},
+    "locomotion": "quadrupedal",
+    "fossil_locations": ["North America — Montana", "North America — Wyoming", "North America — Alberta"],
+    "description": "Ankylosaurus was a living tank — a heavily armoured herbivore protected by bony osteoderms embedded in its skin, and armed with a massive bony club at the end of its tail. This tail club could generate enough force to break the bones of attacking predators. Living alongside T. rex in the Late Cretaceous, its armour provided formidable defence. Despite its heavily-built body, tooth structure suggests it fed on soft, low-growing vegetation.",
+    "fun_facts": [
+      "Its tail club could swing with enough force to shatter bone.",
+      "Even its eyelids were armoured with bony plates.",
+      "Ankylosaurus was so wide and low-slung that it was nearly impossible to flip over.",
+      "Despite its tank-like build, it was likely a slow mover at around 10 km/h."
+    ],
+    "related_species": ["euoplocephalus-tutus"]
+  },
+  {
+    "id": "parasaurolophus-walkeri",
+    "scientific_name": "Parasaurolophus walkeri",
+    "common_name": "Near Crested Lizard",
+    "classification": {"order": "Ornithischia", "suborder": "Ornithopoda", "family": "Hadrosauridae", "genus": "Parasaurolophus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 76.5, "end_mya": 73.0},
+    "diet": "herbivore",
+    "size": {"length_m": 9.5, "height_m": 2.8, "weight_kg": 2500},
+    "locomotion": "bipedal",
+    "fossil_locations": ["North America — Alberta", "North America — New Mexico", "North America — Utah"],
+    "description": "Parasaurolophus is famous for its long, curved, tubular crest extending from the back of its skull. This crest contained complex nasal passages that likely functioned as a resonating chamber, allowing the animal to produce low-frequency sounds for communication over long distances. As a hadrosaurid (duck-billed dinosaur), it had a broad, flat beak for cropping vegetation and hundreds of tightly-packed teeth for grinding plant matter.",
+    "fun_facts": [
+      "Its crest could produce sounds at frequencies around 30 Hz — like a trombone.",
+      "The crest could be up to 1.8 metres long in the largest specimens.",
+      "Parasaurolophus could walk on both two and four legs.",
+      "CT scans of the crest reveal complex internal airways rather than solid bone."
+    ],
+    "related_species": ["corythosaurus-casuarius", "lambeosaurus-lambei"]
+  },
+  {
+    "id": "diplodocus-longus",
+    "scientific_name": "Diplodocus longus",
+    "common_name": "Double Beam",
+    "classification": {"order": "Saurischia", "suborder": "Sauropodomorpha", "family": "Diplodocidae", "genus": "Diplodocus"},
+    "period": {"name": "Late Jurassic", "start_mya": 154.0, "end_mya": 150.0},
+    "diet": "herbivore",
+    "size": {"length_m": 26.0, "height_m": 5.0, "weight_kg": 14800},
+    "locomotion": "quadrupedal",
+    "fossil_locations": ["North America — Colorado", "North America — Wyoming", "North America — Utah", "North America — Montana"],
+    "description": "Diplodocus was one of the longest land animals ever to live. Its extraordinarily long neck and whip-like tail made up most of its total length. Unlike Brachiosaurus, Diplodocus held its neck roughly horizontally, sweeping it side to side to cover a wide feeding area without moving its enormous body. Its peg-like teeth were concentrated at the front of its jaws, adapted for stripping leaves from branches. Biomechanical studies suggest the tail could be cracked like a whip, possibly producing supersonic booms.",
+    "fun_facts": [
+      "Diplodocus could crack its tail like a whip, potentially creating sonic booms.",
+      "A cast of Diplodocus, nicknamed 'Dippy', was displayed in museums worldwide.",
+      "Its pencil-like teeth were replaced approximately every 35 days.",
+      "Despite its length, Diplodocus was relatively lightweight for a sauropod."
+    ],
+    "related_species": ["apatosaurus-ajax", "barosaurus-lentus"]
+  },
+  {
+    "id": "allosaurus-fragilis",
+    "scientific_name": "Allosaurus fragilis",
+    "common_name": "Different Lizard",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Allosauridae", "genus": "Allosaurus"},
+    "period": {"name": "Late Jurassic", "start_mya": 155.0, "end_mya": 150.0},
+    "diet": "carnivore",
+    "size": {"length_m": 9.7, "height_m": 3.5, "weight_kg": 2300},
+    "locomotion": "bipedal",
+    "fossil_locations": ["North America — Colorado", "North America — Utah", "North America — Wyoming", "Europe — Portugal"],
+    "description": "Allosaurus was the apex predator of the Late Jurassic, filling a similar ecological role to what T. rex would later occupy in the Cretaceous. It was a large, powerful theropod with strong forelimbs ending in three-fingered hands with sharp claws. Biomechanical analysis suggests it may have used its skull like a hatchet, driving its upper jaw downward into prey with great force. The Cleveland-Lloyd Dinosaur Quarry in Utah has produced thousands of Allosaurus bones, making it one of the best-studied theropods.",
+    "fun_facts": [
+      "More Allosaurus fossils have been found than any other large Jurassic theropod.",
+      "It may have hunted in loose groups to take down large sauropods.",
+      "Its skull was relatively light with large fenestrae (openings) for weight reduction.",
+      "Allosaurus was the state fossil of Utah."
+    ],
+    "related_species": ["saurophaganax-maximus"]
+  },
+  {
+    "id": "pteranodon-longiceps",
+    "scientific_name": "Pteranodon longiceps",
+    "common_name": "Toothless Wing",
+    "classification": {"order": "Pterosauria", "suborder": "Pterodactyloidea", "family": "Pteranodontidae", "genus": "Pteranodon"},
+    "period": {"name": "Late Cretaceous", "start_mya": 86.0, "end_mya": 84.5},
+    "diet": "carnivore",
+    "size": {"length_m": 1.8, "height_m": 1.0, "weight_kg": 25},
+    "locomotion": "bipedal",
+    "fossil_locations": ["North America — Kansas", "North America — South Dakota"],
+    "description": "While technically not a dinosaur but a pterosaur, Pteranodon is closely associated with the age of dinosaurs. It was one of the largest flying animals of its time, with a wingspan up to 7 metres. Unlike many earlier pterosaurs, Pteranodon was completely toothless, using its long beak to scoop fish from the Western Interior Seaway. The prominent bony crest on its skull differed between presumed males and females, suggesting a role in sexual display.",
+    "fun_facts": [
+      "Pteranodon had a wingspan of up to 7 metres despite weighing only about 25 kg.",
+      "It is technically not a dinosaur but a flying reptile (pterosaur).",
+      "Males had much larger crests than females.",
+      "Over 1,100 Pteranodon specimens have been found."
+    ],
+    "related_species": []
+  },
+  {
+    "id": "deinonychus-antirrhopus",
+    "scientific_name": "Deinonychus antirrhopus",
+    "common_name": "Terrible Claw",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Dromaeosauridae", "genus": "Deinonychus"},
+    "period": {"name": "Early Cretaceous", "start_mya": 115.0, "end_mya": 108.0},
+    "diet": "carnivore",
+    "size": {"length_m": 3.4, "height_m": 0.87, "weight_kg": 73},
+    "locomotion": "bipedal",
+    "fossil_locations": ["North America — Montana", "North America — Wyoming", "North America — Oklahoma"],
+    "description": "Deinonychus revolutionized paleontology. Its discovery by John Ostrom in the 1960s was instrumental in changing the perception of dinosaurs from slow, cold-blooded reptiles to active, warm-blooded animals. This agile predator possessed a large, sickle-shaped claw on each foot — the 'terrible claw' of its name. Evidence of multiple Deinonychus found alongside herbivore remains suggests possible pack-hunting behaviour, though this interpretation remains debated.",
+    "fun_facts": [
+      "The 'raptors' in Jurassic Park were actually based on Deinonychus, not Velociraptor.",
+      "Its discovery sparked the 'Dinosaur Renaissance' — a fundamental shift in how we understand dinosaurs.",
+      "The killing claw on its foot could be up to 13 cm long.",
+      "Multiple Deinonychus fossils found together suggest possible social hunting."
+    ],
+    "related_species": ["velociraptor-mongoliensis", "utahraptor-ostrommaysi"]
+  },
+  {
+    "id": "utahraptor-ostrommaysi",
+    "scientific_name": "Utahraptor ostrommaysi",
+    "common_name": "Utah's Predator",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Dromaeosauridae", "genus": "Utahraptor"},
+    "period": {"name": "Early Cretaceous", "start_mya": 139.0, "end_mya": 134.0},
+    "diet": "carnivore",
+    "size": {"length_m": 5.5, "height_m": 1.8, "weight_kg": 500},
+    "locomotion": "bipedal",
+    "fossil_locations": ["North America — Utah"],
+    "description": "Utahraptor is the largest known dromaeosaurid (raptor dinosaur). At over 5 metres long and weighing roughly 500 kg, it was a formidable predator of the Early Cretaceous. Its sickle claw on each foot could reach 24 cm in length. Discovered in 1993, ironically the same year Jurassic Park was released, Utahraptor was closer in size to the film's exaggerated 'Velociraptors' than the real Velociraptor mongoliensis.",
+    "fun_facts": [
+      "Its foot claw was up to 24 cm long — larger than a human hand.",
+      "It was discovered the same year Jurassic Park was released.",
+      "A block of stone containing multiple Utahraptor specimens trapped in quicksand was found in 2001.",
+      "Utahraptor is the state dinosaur of Utah as of 2018."
+    ],
+    "related_species": ["deinonychus-antirrhopus", "velociraptor-mongoliensis"]
+  },
+  {
+    "id": "iguanodon-bernissartensis",
+    "scientific_name": "Iguanodon bernissartensis",
+    "common_name": "Iguana Tooth",
+    "classification": {"order": "Ornithischia", "suborder": "Ornithopoda", "family": "Iguanodontidae", "genus": "Iguanodon"},
+    "period": {"name": "Early Cretaceous", "start_mya": 126.0, "end_mya": 122.0},
+    "diet": "herbivore",
+    "size": {"length_m": 10.0, "height_m": 3.0, "weight_kg": 3400},
+    "locomotion": "bipedal",
+    "fossil_locations": ["Europe — Belgium", "Europe — England", "Europe — Germany"],
+    "description": "Iguanodon holds a special place in paleontological history as one of the first dinosaurs ever scientifically described, in 1825 by Gideon Mantell. It was a large ornithopod herbivore with a distinctive thumb spike — originally mistakenly placed on its nose as a horn. Iguanodon could move on both two and four legs. The famous discovery of over 30 complete skeletons in a Belgian coal mine in 1878 provided unprecedented insight into dinosaur anatomy.",
+    "fun_facts": [
+      "One of the first dinosaurs to be named, in 1825.",
+      "Its thumb spike was originally mistaken for a nose horn.",
+      "Over 30 complete skeletons were found in a Belgian coal mine.",
+      "It was one of three dinosaurs used to create the original concept of 'Dinosauria' by Richard Owen."
+    ],
+    "related_species": ["mantellisaurus-atherfieldensis"]
+  },
+  {
+    "id": "pachycephalosaurus-wyomingensis",
+    "scientific_name": "Pachycephalosaurus wyomingensis",
+    "common_name": "Thick-Headed Lizard",
+    "classification": {"order": "Ornithischia", "suborder": "Pachycephalosauria", "family": "Pachycephalosauridae", "genus": "Pachycephalosaurus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 70.0, "end_mya": 66.0},
+    "diet": "omnivore",
+    "size": {"length_m": 4.5, "height_m": 1.5, "weight_kg": 450},
+    "locomotion": "bipedal",
+    "fossil_locations": ["North America — Montana", "North America — Wyoming", "North America — South Dakota"],
+    "description": "Pachycephalosaurus is famous for its extremely thick skull dome, which could be up to 25 cm thick. The traditional hypothesis suggested these dinosaurs engaged in head-butting contests similar to modern bighorn sheep. However, biomechanical studies have cast doubt on this idea, suggesting the dome's rounded shape would cause heads to glance off each other. Alternative hypotheses include flank-butting or purely visual display. It was one of the last dinosaurs to exist before the K-Pg extinction.",
+    "fun_facts": [
+      "Its skull dome could be 25 cm (10 inches) thick.",
+      "The head-butting hypothesis is now debated among scientists.",
+      "Juvenile Pachycephalosaurus may have been mistakenly named as separate species.",
+      "It was the largest pachycephalosaur known."
+    ],
+    "related_species": ["stygimoloch-spinifer"]
+  },
+  {
+    "id": "archaeopteryx-lithographica",
+    "scientific_name": "Archaeopteryx lithographica",
+    "common_name": "Ancient Wing",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Archaeopterygidae", "genus": "Archaeopteryx"},
+    "period": {"name": "Late Jurassic", "start_mya": 150.8, "end_mya": 148.5},
+    "diet": "carnivore",
+    "size": {"length_m": 0.5, "height_m": 0.25, "weight_kg": 1},
+    "locomotion": "bipedal",
+    "fossil_locations": ["Europe — Germany (Solnhofen)"],
+    "description": "Archaeopteryx is one of the most important fossils ever discovered. Found in 1861, just two years after Darwin published On the Origin of Species, it provided critical evidence for evolution. This crow-sized animal possessed both dinosaurian features (teeth, clawed fingers, bony tail) and bird-like features (feathered wings). It represents a transitional form between non-avian theropod dinosaurs and modern birds, though debate continues about whether it could truly fly or was primarily a glider.",
+    "fun_facts": [
+      "Discovered just 2 years after Darwin's On the Origin of Species.",
+      "Only about 12 specimens have ever been found, all from Germany.",
+      "It had teeth, clawed fingers, and a bony tail — all dinosaur features.",
+      "Its flight capability is still debated: true flight vs. gliding."
+    ],
+    "related_species": []
+  },
+  {
+    "id": "giganotosaurus-carolinii",
+    "scientific_name": "Giganotosaurus carolinii",
+    "common_name": "Giant Southern Lizard",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Carcharodontosauridae", "genus": "Giganotosaurus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 99.6, "end_mya": 97.0},
+    "diet": "carnivore",
+    "size": {"length_m": 13.2, "height_m": 3.7, "weight_kg": 6800},
+    "locomotion": "bipedal",
+    "fossil_locations": ["South America — Argentina"],
+    "description": "Giganotosaurus rivalled Tyrannosaurus rex in size and was the apex predator of mid-Cretaceous South America. Unlike T. rex, which had a massively powerful bite, Giganotosaurus had a narrower skull with blade-like serrated teeth designed for slashing. It may have hunted the enormous titanosaur sauropods that shared its environment. As a carcharodontosaurid, it belongs to a different lineage of large predatory dinosaurs than the tyrannosaurs.",
+    "fun_facts": [
+      "Its skull alone was about 1.8 metres long.",
+      "Despite being longer than T. rex, its brain was roughly half the size.",
+      "It may have hunted in groups to bring down giant sauropods.",
+      "Discovered in 1993 by an amateur fossil hunter in Patagonia."
+    ],
+    "related_species": ["carcharodontosaurus-saharicus", "mapusaurus-roseae"]
+  },
+  {
+    "id": "baryonyx-walkeri",
+    "scientific_name": "Baryonyx walkeri",
+    "common_name": "Heavy Claw",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Spinosauridae", "genus": "Baryonyx"},
+    "period": {"name": "Early Cretaceous", "start_mya": 130.0, "end_mya": 125.0},
+    "diet": "carnivore",
+    "size": {"length_m": 9.5, "height_m": 2.5, "weight_kg": 1700},
+    "locomotion": "bipedal",
+    "fossil_locations": ["Europe — England", "Europe — Spain", "Europe — Portugal"],
+    "description": "Baryonyx was a fish-eating dinosaur closely related to Spinosaurus. It is named for its enormous thumb claw, which measured over 30 cm long and may have been used to hook fish from rivers, similar to how grizzly bears catch salmon. Fossilized fish scales and bones have been found in its stomach region, confirming its piscivorous diet. Its long, narrow snout with conical teeth closely resembled that of a modern gharial crocodilian.",
+    "fun_facts": [
+      "Its thumb claw was over 30 cm long.",
+      "Fish scales were found fossilized in its stomach area.",
+      "Discovered by an amateur fossil collector in a Surrey clay pit in 1983.",
+      "Its crocodile-like snout had over 90 teeth."
+    ],
+    "related_species": ["spinosaurus-aegyptiacus", "suchomimus-tenerensis"]
+  },
+  {
+    "id": "apatosaurus-ajax",
+    "scientific_name": "Apatosaurus ajax",
+    "common_name": "Deceptive Lizard",
+    "classification": {"order": "Saurischia", "suborder": "Sauropodomorpha", "family": "Diplodocidae", "genus": "Apatosaurus"},
+    "period": {"name": "Late Jurassic", "start_mya": 152.0, "end_mya": 151.0},
+    "diet": "herbivore",
+    "size": {"length_m": 22.8, "height_m": 4.5, "weight_kg": 22400},
+    "locomotion": "quadrupedal",
+    "fossil_locations": ["North America — Colorado", "North America — Oklahoma", "North America — Wyoming", "North America — Utah"],
+    "description": "Apatosaurus, once known by its more famous junior synonym Brontosaurus, was a massive sauropod of the Late Jurassic Morrison Formation. More robustly built than its relative Diplodocus, Apatosaurus had a thicker neck and heavier body. It used its pencil-like teeth to strip foliage from branches. The naming controversy — Brontosaurus vs. Apatosaurus — is one of the most famous in paleontological history, though recent studies suggest they may in fact be distinct genera after all.",
+    "fun_facts": [
+      "For over a century it was displayed with the wrong skull — a Camarasaurus head.",
+      "Recent research suggests Brontosaurus may be valid as a separate genus after all.",
+      "It could weigh as much as four adult elephants.",
+      "A young Apatosaurus may have grown as fast as 5 tonnes per year."
+    ],
+    "related_species": ["diplodocus-longus", "barosaurus-lentus"]
+  },
+  {
+    "id": "carnotaurus-sastrei",
+    "scientific_name": "Carnotaurus sastrei",
+    "common_name": "Meat-Eating Bull",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Abelisauridae", "genus": "Carnotaurus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 72.0, "end_mya": 69.9},
+    "diet": "carnivore",
+    "size": {"length_m": 7.5, "height_m": 2.6, "weight_kg": 1350},
+    "locomotion": "bipedal",
+    "fossil_locations": ["South America — Argentina"],
+    "description": "Carnotaurus is one of the most distinctive predatory dinosaurs, easily recognized by the two prominent horns above its eyes and its absurdly tiny arms — even smaller proportionally than those of T. rex. Its skull was short and deep, with forward-facing eyes that may have provided binocular vision. Skin impressions preserved with the holotype specimen reveal rows of large, non-overlapping scales. Biomechanical studies suggest it was built for speed, possibly reaching 50 km/h.",
+    "fun_facts": [
+      "Its arms were even proportionally smaller than T. rex's.",
+      "It is one of the few dinosaurs with preserved skin impressions over much of its body.",
+      "Its horns were likely used for intra-species combat, not hunting.",
+      "Speed estimates suggest it could run up to 50 km/h."
+    ],
+    "related_species": ["abelisaurus-comahuensis"]
+  },
+  {
+    "id": "therizinosaurus-cheloniformis",
+    "scientific_name": "Therizinosaurus cheloniformis",
+    "common_name": "Reaping Lizard",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Therizinosauridae", "genus": "Therizinosaurus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 70.0, "end_mya": 66.0},
+    "diet": "herbivore",
+    "size": {"length_m": 10.0, "height_m": 5.0, "weight_kg": 5000},
+    "locomotion": "bipedal",
+    "fossil_locations": ["Asia — Mongolia"],
+    "description": "Therizinosaurus possessed the longest claws of any known animal — up to 1 metre long. Despite being a theropod (the group that includes all predatory dinosaurs), it was an herbivore with a pot-bellied body, long neck, and small head. When first discovered, its massive claws were so bizarre that scientists initially mistook them for the ribs of a giant turtle-like reptile. It represents one of the most dramatic evolutionary shifts in dinosaur dietary habits.",
+    "fun_facts": [
+      "Its claws were up to 1 metre (3 feet) long — the longest of any known animal.",
+      "Despite being a theropod, it was an herbivore.",
+      "It was originally mistaken for a giant turtle.",
+      "Its pot-bellied body shape is highly unusual for theropods."
+    ],
+    "related_species": []
+  },
+  {
+    "id": "protoceratops-andrewsi",
+    "scientific_name": "Protoceratops andrewsi",
+    "common_name": "First Horned Face",
+    "classification": {"order": "Ornithischia", "suborder": "Ceratopsia", "family": "Protoceratopsidae", "genus": "Protoceratops"},
+    "period": {"name": "Late Cretaceous", "start_mya": 75.0, "end_mya": 71.0},
+    "diet": "herbivore",
+    "size": {"length_m": 1.8, "height_m": 0.6, "weight_kg": 83},
+    "locomotion": "quadrupedal",
+    "fossil_locations": ["Asia — Mongolia", "Asia — China"],
+    "description": "Protoceratops was a small ceratopsian dinosaur that lived in the deserts of Late Cretaceous Mongolia. It lacked the large horns of its later relatives like Triceratops but possessed a prominent neck frill that showed significant variation between individuals, likely related to age and sex. It is one of the most commonly found Mongolian dinosaurs, with specimens ranging from eggs and hatchlings to full adults. The famous 'Fighting Dinosaurs' fossil shows a Protoceratops locked in combat with a Velociraptor.",
+    "fun_facts": [
+      "Nests of Protoceratops eggs were among the first dinosaur nests ever found.",
+      "The 'Fighting Dinosaurs' fossil shows it battling a Velociraptor.",
+      "Some researchers think its fossils inspired the griffin legends of Central Asian nomads.",
+      "Males likely had larger frills than females."
+    ],
+    "related_species": []
+  },
+  {
+    "id": "compsognathus-longipes",
+    "scientific_name": "Compsognathus longipes",
+    "common_name": "Elegant Jaw",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Compsognathidae", "genus": "Compsognathus"},
+    "period": {"name": "Late Jurassic", "start_mya": 150.8, "end_mya": 148.5},
+    "diet": "carnivore",
+    "size": {"length_m": 1.0, "height_m": 0.26, "weight_kg": 3.5},
+    "locomotion": "bipedal",
+    "fossil_locations": ["Europe — Germany", "Europe — France"],
+    "description": "Compsognathus was one of the smallest known non-avian dinosaurs, about the size of a chicken. Despite its tiny stature, it was a swift and agile predator that likely fed on small lizards and insects. The first specimen, discovered in Germany in 1859, was one of the earliest complete dinosaur skeletons found. A fossilized lizard was found in its stomach cavity, providing direct evidence of its diet.",
+    "fun_facts": [
+      "It was roughly the size of a chicken.",
+      "A lizard was found preserved in its stomach.",
+      "It was one of the first complete dinosaur skeletons ever discovered.",
+      "For over a century it held the record as the smallest known dinosaur."
+    ],
+    "related_species": []
+  },
+  {
+    "id": "edmontosaurus-annectens",
+    "scientific_name": "Edmontosaurus annectens",
+    "common_name": "Edmonton Lizard",
+    "classification": {"order": "Ornithischia", "suborder": "Ornithopoda", "family": "Hadrosauridae", "genus": "Edmontosaurus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 68.0, "end_mya": 66.0},
+    "diet": "herbivore",
+    "size": {"length_m": 12.0, "height_m": 3.5, "weight_kg": 4000},
+    "locomotion": "bipedal",
+    "fossil_locations": ["North America — Alberta", "North America — Montana", "North America — South Dakota"],
+    "description": "Edmontosaurus was one of the largest and most successful hadrosaurid (duck-billed) dinosaurs, thriving in the final stage of the Cretaceous. It was a common prey item for T. rex, with some specimens showing healed bite wounds. Remarkably well-preserved specimens include 'mummies' with fossilized skin impressions, and one specimen was found with a fleshy comb or crest on its head — a structure that would not normally fossilize.",
+    "fun_facts": [
+      "Some specimens show healed T. rex bite marks — they survived the attack.",
+      "'Mummified' specimens with preserved skin have been found.",
+      "One specimen had a soft-tissue comb on its head, like a rooster.",
+      "Herds may have numbered in the thousands during seasonal migrations."
+    ],
+    "related_species": ["parasaurolophus-walkeri"]
+  },
+  {
+    "id": "gallimimus-bullatus",
+    "scientific_name": "Gallimimus bullatus",
+    "common_name": "Chicken Mimic",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Ornithomimidae", "genus": "Gallimimus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 70.0, "end_mya": 66.0},
+    "diet": "omnivore",
+    "size": {"length_m": 6.0, "height_m": 1.9, "weight_kg": 440},
+    "locomotion": "bipedal",
+    "fossil_locations": ["Asia — Mongolia"],
+    "description": "Gallimimus was one of the largest ornithomimid (ostrich-mimic) dinosaurs. With its long legs, lightweight build, and toothless beak, it superficially resembled a large modern ostrich. It was likely one of the fastest dinosaurs, with speed estimates reaching 70 km/h. Its diet was probably omnivorous, including plants, insects, and small animals. A comb-like structure in its beak may have been used for filter-feeding in shallow water.",
+    "fun_facts": [
+      "Speed estimates suggest it could run up to 70 km/h.",
+      "Its toothless beak may have had a filter-feeding function.",
+      "It appeared in the famous stampede scene in Jurassic Park.",
+      "At 6 metres long, it was the largest ornithomimid in its ecosystem."
+    ],
+    "related_species": ["ornithomimus-edmontonicus"]
+  },
+  {
+    "id": "argentinosaur-huinculensis",
+    "scientific_name": "Argentinosaurus huinculensis",
+    "common_name": "Argentine Lizard",
+    "classification": {"order": "Saurischia", "suborder": "Sauropodomorpha", "family": "Titanosauridae", "genus": "Argentinosaurus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 96.0, "end_mya": 94.0},
+    "diet": "herbivore",
+    "size": {"length_m": 35.0, "height_m": 7.0, "weight_kg": 70000},
+    "locomotion": "quadrupedal",
+    "fossil_locations": ["South America — Argentina"],
+    "description": "Argentinosaurus is one of the strongest candidates for the largest land animal that ever lived. With an estimated length of 35 metres and weight of 70 tonnes, it dwarfed most other dinosaurs. As a titanosaur sauropod, it lived during the Late Cretaceous of South America. Despite its enormous size, relatively little of the skeleton has been found — estimates are based on a few vertebrae, ribs, and leg bones. Growing to full size may have taken 40 years.",
+    "fun_facts": [
+      "A single vertebra was over 1.5 metres tall.",
+      "It may have weighed as much as 12 African elephants.",
+      "Despite its fame, less than 10% of its skeleton has been found.",
+      "Hatchlings may have been over 1,000 times lighter than adults."
+    ],
+    "related_species": ["patagotitan-mayorum", "dreadnoughtus-schrani"]
+  },
+  {
+    "id": "microraptor-gui",
+    "scientific_name": "Microraptor gui",
+    "common_name": "Small Thief",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Dromaeosauridae", "genus": "Microraptor"},
+    "period": {"name": "Early Cretaceous", "start_mya": 125.0, "end_mya": 120.0},
+    "diet": "carnivore",
+    "size": {"length_m": 0.77, "height_m": 0.2, "weight_kg": 1},
+    "locomotion": "bipedal",
+    "fossil_locations": ["Asia — China (Liaoning)"],
+    "description": "Microraptor is a remarkable feathered dinosaur that possessed long flight feathers on both its arms AND legs, giving it four wings. This unique configuration has provided crucial insights into the evolution of flight in dinosaurs. Analysis of fossilized melanosomes reveals it had iridescent black plumage, similar to a modern crow. Wind tunnel tests suggest it could glide effectively, and possibly perform limited powered flight. Its stomach contents reveal a varied diet of fish, birds, and small mammals.",
+    "fun_facts": [
+      "It had four wings — feathered arms and legs.",
+      "Its plumage was iridescent black, determined from fossil melanosomes.",
+      "Stomach contents show it ate fish, birds, and mammals.",
+      "Over 300 specimens have been found in China."
+    ],
+    "related_species": ["velociraptor-mongoliensis", "sinornithosaurus-millenii"]
+  },
+  {
+    "id": "maiasaura-peeblesorum",
+    "scientific_name": "Maiasaura peeblesorum",
+    "common_name": "Good Mother Lizard",
+    "classification": {"order": "Ornithischia", "suborder": "Ornithopoda", "family": "Hadrosauridae", "genus": "Maiasaura"},
+    "period": {"name": "Late Cretaceous", "start_mya": 76.7, "end_mya": 74.0},
+    "diet": "herbivore",
+    "size": {"length_m": 9.0, "height_m": 2.5, "weight_kg": 2500},
+    "locomotion": "bipedal",
+    "fossil_locations": ["North America — Montana"],
+    "description": "Maiasaura ('good mother lizard') earned its name from the discovery of nesting colonies containing eggs, hatchlings, juveniles, and adults, providing the first clear evidence that dinosaurs cared for their young. Discovered by Jack Horner and Robert Makela in 1978 in Montana's Two Medicine Formation, the site revealed nests arranged in colonies, suggesting social behaviour. The hatchlings' undeveloped leg bones indicate they were unable to walk immediately, necessitating parental feeding — a behaviour previously associated only with birds and mammals.",
+    "fun_facts": [
+      "First dinosaur proven to have cared for its young.",
+      "Nesting colonies suggest they were highly social animals.",
+      "Became the first dinosaur in space — bone fragments flew on a SpaceLab mission.",
+      "The state fossil of Montana."
+    ],
+    "related_species": ["edmontosaurus-annectens"]
+  },
+  {
+    "id": "dilophosaurus-wetherilli",
+    "scientific_name": "Dilophosaurus wetherilli",
+    "common_name": "Two-Crested Lizard",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Dilophosauridae", "genus": "Dilophosaurus"},
+    "period": {"name": "Early Jurassic", "start_mya": 193.0, "end_mya": 183.0},
+    "diet": "carnivore",
+    "size": {"length_m": 7.0, "height_m": 2.4, "weight_kg": 400},
+    "locomotion": "bipedal",
+    "fossil_locations": ["North America — Arizona"],
+    "description": "Dilophosaurus was one of the largest predatory dinosaurs of the Early Jurassic. It is easily identified by the pair of thin, bony crests on its skull, which were likely used for display rather than combat due to their fragile construction. Contrary to its portrayal in Jurassic Park, there is no evidence that Dilophosaurus had a neck frill or spat venom — these were purely fictional inventions. The real animal was a large, capable predator roughly 7 metres long.",
+    "fun_facts": [
+      "It did NOT have a neck frill or spit venom — that was movie fiction.",
+      "Its paired skull crests were too fragile for combat, likely used for display.",
+      "At 7 metres long, it was one of the largest Early Jurassic predators.",
+      "The first specimen was found by a Navajo man named Jesse Williams in 1940."
+    ],
+    "related_species": []
+  },
+  {
+    "id": "coelophysis-bauri",
+    "scientific_name": "Coelophysis bauri",
+    "common_name": "Hollow Form",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Coelophysidae", "genus": "Coelophysis"},
+    "period": {"name": "Late Triassic", "start_mya": 216.5, "end_mya": 203.6},
+    "diet": "carnivore",
+    "size": {"length_m": 3.0, "height_m": 1.0, "weight_kg": 20},
+    "locomotion": "bipedal",
+    "fossil_locations": ["North America — New Mexico", "North America — Arizona"],
+    "description": "Coelophysis is one of the earliest well-known dinosaurs, dating to the Late Triassic period. Hundreds of skeletons were found together at Ghost Ranch in New Mexico, one of the richest dinosaur bonebeds ever discovered. This mass death assemblage provides evidence of gregarious behaviour. It was a lightly-built, agile predator with hollow bones — hence its name. Coelophysis represents the early phase of dinosaur evolution, when dinosaurs were still small and far from dominant.",
+    "fun_facts": [
+      "Hundreds of specimens were found together at Ghost Ranch, New Mexico.",
+      "It was one of the earliest dinosaurs, living over 200 million years ago.",
+      "A Coelophysis skull was carried into space aboard the Space Shuttle Endeavour in 1998.",
+      "It had hollow bones, which is the origin of its name."
+    ],
+    "related_species": []
+  },
+  {
+    "id": "styracosaurus-albertensis",
+    "scientific_name": "Styracosaurus albertensis",
+    "common_name": "Spiked Lizard",
+    "classification": {"order": "Ornithischia", "suborder": "Ceratopsia", "family": "Ceratopsidae", "genus": "Styracosaurus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 75.5, "end_mya": 74.5},
+    "diet": "herbivore",
+    "size": {"length_m": 5.5, "height_m": 1.8, "weight_kg": 2700},
+    "locomotion": "quadrupedal",
+    "fossil_locations": ["North America — Alberta", "North America — Montana"],
+    "description": "Styracosaurus was a ceratopsian dinosaur with one of the most elaborate skull decorations of any dinosaur. It bore a single large nose horn and six or more long spikes emanating from its neck frill, creating an imposing display. These frill spikes were likely used primarily for species recognition and sexual display rather than defence, as they were relatively fragile. Bonebeds containing multiple Styracosaurus specimens suggest it lived in herds.",
+    "fun_facts": [
+      "Its frill spikes could each be up to 60 cm long.",
+      "Bonebeds suggest it lived in large herds.",
+      "Named by Lawrence Lambe in 1913.",
+      "Despite having only one nose horn (unlike Triceratops' three), its spiked frill was far more elaborate."
+    ],
+    "related_species": ["triceratops-horridus"]
+  },
+  {
+    "id": "oviraptor-philoceratops",
+    "scientific_name": "Oviraptor philoceratops",
+    "common_name": "Egg Thief",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Oviraptoridae", "genus": "Oviraptor"},
+    "period": {"name": "Late Cretaceous", "start_mya": 75.0, "end_mya": 71.0},
+    "diet": "omnivore",
+    "size": {"length_m": 2.0, "height_m": 0.8, "weight_kg": 33},
+    "locomotion": "bipedal",
+    "fossil_locations": ["Asia — Mongolia"],
+    "description": "Oviraptor's name means 'egg thief', given because the first specimen was found atop a nest of eggs assumed to belong to Protoceratops. This turned out to be one of paleontology's greatest cases of mistaken identity — the eggs actually belonged to Oviraptor itself, and it was brooding its own nest, not stealing eggs. Later discoveries of related oviraptorids sitting on nests in bird-like postures confirmed this parental behaviour. Oviraptor had a distinctive toothless beak and cranial crest.",
+    "fun_facts": [
+      "Falsely accused of stealing eggs — it was actually brooding its own nest.",
+      "Its name 'egg thief' is one of the most unfair names in paleontology.",
+      "Related species have been found preserved in bird-like brooding postures.",
+      "Its toothless beak may have been strong enough to crack mollusc shells."
+    ],
+    "related_species": []
+  },
+  {
+    "id": "plateosaurus-engelhardti",
+    "scientific_name": "Plateosaurus engelhardti",
+    "common_name": "Broad Lizard",
+    "classification": {"order": "Saurischia", "suborder": "Sauropodomorpha", "family": "Plateosauridae", "genus": "Plateosaurus"},
+    "period": {"name": "Late Triassic", "start_mya": 214.0, "end_mya": 204.0},
+    "diet": "herbivore",
+    "size": {"length_m": 8.0, "height_m": 2.0, "weight_kg": 600},
+    "locomotion": "bipedal",
+    "fossil_locations": ["Europe — Germany", "Europe — Switzerland", "Europe — France"],
+    "description": "Plateosaurus was one of the first large herbivorous dinosaurs and among the most common dinosaurs of the Late Triassic in Europe. As a prosauropod, it represents an early stage in the evolution of the giant sauropods that would dominate the Jurassic. Over 100 skeletons have been found, many in a remarkable state of preservation. Studies suggest these mass death sites formed when animals became mired in mud traps over thousands of years.",
+    "fun_facts": [
+      "Over 100 skeletons have been found across Europe.",
+      "It may have been able to walk on two or four legs.",
+      "One of the first large dinosaur herbivores to evolve.",
+      "Mass death sites suggest animals repeatedly got stuck in mud traps."
+    ],
+    "related_species": []
+  },
+  {
+    "id": "kentrosaurus-aethiopicus",
+    "scientific_name": "Kentrosaurus aethiopicus",
+    "common_name": "Spiked Lizard",
+    "classification": {"order": "Ornithischia", "suborder": "Thyreophora", "family": "Stegosauridae", "genus": "Kentrosaurus"},
+    "period": {"name": "Late Jurassic", "start_mya": 155.0, "end_mya": 150.0},
+    "diet": "herbivore",
+    "size": {"length_m": 4.5, "height_m": 1.5, "weight_kg": 1100},
+    "locomotion": "quadrupedal",
+    "fossil_locations": ["Africa — Tanzania"],
+    "description": "Kentrosaurus was a smaller African relative of Stegosaurus. While Stegosaurus had broad plates, Kentrosaurus had plates that transitioned into long, paired spikes along its back and tail. It also had a distinctive spike projecting from each shoulder. Found in the famous Tendaguru beds of Tanzania alongside the giant sauropod Giraffatitan, it provides evidence that stegosaurs had a near-global distribution during the Late Jurassic.",
+    "fun_facts": [
+      "Its shoulder spikes are unique among stegosaurs.",
+      "Found in the famous Tendaguru beds of Tanzania.",
+      "About half the size of its North American cousin Stegosaurus.",
+      "Over 900 bones were collected during German expeditions in 1909-1912."
+    ],
+    "related_species": ["stegosaurus-stenops"]
+  },
+  {
+    "id": "corythosaurus-casuarius",
+    "scientific_name": "Corythosaurus casuarius",
+    "common_name": "Helmet Lizard",
+    "classification": {"order": "Ornithischia", "suborder": "Ornithopoda", "family": "Hadrosauridae", "genus": "Corythosaurus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 77.0, "end_mya": 75.7},
+    "diet": "herbivore",
+    "size": {"length_m": 9.0, "height_m": 2.5, "weight_kg": 3800},
+    "locomotion": "bipedal",
+    "fossil_locations": ["North America — Alberta"],
+    "description": "Corythosaurus was a large hadrosaurid dinosaur with a distinctive helmet-shaped crest on its head. Like its relative Parasaurolophus, the hollow crest contained extended nasal passages that likely functioned as resonating chambers. Different species and age groups had differently shaped crests, suggesting they played a role in species recognition and communication. Several remarkably well-preserved specimens include fossilized skin impressions.",
+    "fun_facts": [
+      "Its crest resembled a Corinthian helmet — hence the name.",
+      "One specimen being shipped to England was sunk by a German torpedo in WWI.",
+      "Skin impressions show a pebbly, non-overlapping scale pattern.",
+      "Young Corythosaurus had much smaller crests than adults."
+    ],
+    "related_species": ["parasaurolophus-walkeri", "lambeosaurus-lambei"]
+  },
+  {
+    "id": "tarbosaurus-bataar",
+    "scientific_name": "Tarbosaurus bataar",
+    "common_name": "Alarming Lizard",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Tyrannosauridae", "genus": "Tarbosaurus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 70.0, "end_mya": 66.0},
+    "diet": "carnivore",
+    "size": {"length_m": 11.0, "height_m": 3.5, "weight_kg": 5000},
+    "locomotion": "bipedal",
+    "fossil_locations": ["Asia — Mongolia", "Asia — China"],
+    "description": "Tarbosaurus was the Asian counterpart to Tyrannosaurus rex and the apex predator of Late Cretaceous Mongolia. Nearly as large as T. rex, it differed in having a narrower skull and even smaller relative arm size. Some paleontologists consider it a species of Tyrannosaurus, though most treat it as a distinct genus. It preyed upon large hadrosaurs and sauropods in the rich ecosystems of the Nemegt Formation.",
+    "fun_facts": [
+      "Some scientists consider it an Asian species of Tyrannosaurus.",
+      "Its arms were even proportionally smaller than T. rex's.",
+      "A juvenile specimen was illegally smuggled to the US and later returned to Mongolia.",
+      "At least 30 specimens have been found."
+    ],
+    "related_species": ["tyrannosaurus-rex", "albertosaurus-sarcophagus"]
+  },
+  {
+    "id": "albertosaurus-sarcophagus",
+    "scientific_name": "Albertosaurus sarcophagus",
+    "common_name": "Alberta Lizard",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Tyrannosauridae", "genus": "Albertosaurus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 70.0, "end_mya": 66.0},
+    "diet": "carnivore",
+    "size": {"length_m": 9.0, "height_m": 2.5, "weight_kg": 1700},
+    "locomotion": "bipedal",
+    "fossil_locations": ["North America — Alberta"],
+    "description": "Albertosaurus was a smaller, more lightly-built relative of Tyrannosaurus rex that lived alongside it in western North America. A bonebed discovered by Barnum Brown in 1910 contained over 20 individuals of varying ages, representing some of the strongest evidence for gregarious behaviour in tyrannosaurs. This site suggests Albertosaurus may have lived or at least gathered in groups, possibly hunting cooperatively.",
+    "fun_facts": [
+      "A bonebed with 20+ individuals suggests they lived in groups.",
+      "It was more lightly built and possibly faster than T. rex.",
+      "Named after the Canadian province of Alberta.",
+      "Phil Currie's re-excavation of the bonebed in 1997 led to new insights about tyrannosaur social behaviour."
+    ],
+    "related_species": ["tyrannosaurus-rex", "gorgosaurus-libratus"]
+  },
+  {
+    "id": "gorgosaurus-libratus",
+    "scientific_name": "Gorgosaurus libratus",
+    "common_name": "Fierce Lizard",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Tyrannosauridae", "genus": "Gorgosaurus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 76.5, "end_mya": 75.0},
+    "diet": "carnivore",
+    "size": {"length_m": 8.6, "height_m": 2.5, "weight_kg": 2500},
+    "locomotion": "bipedal",
+    "fossil_locations": ["North America — Alberta", "North America — Montana"],
+    "description": "Gorgosaurus was an earlier and slightly smaller tyrannosaur that preceded both Albertosaurus and Tyrannosaurus in the ecosystems of western North America. Its more lightly-built skull and longer legs relative to body size suggest it may have been a faster predator that relied more on speed than on crushing bite force. Studies of growth rates from bone histology show it went through a dramatic adolescent growth spurt, gaining over 500 kg per year.",
+    "fun_facts": [
+      "One specimen shows a brain tumour preserved in its skull bones.",
+      "It grew at an explosive rate during its teenage years.",
+      "Despite its fearsome name (meaning 'fierce lizard'), it was smaller than T. rex.",
+      "A nearly complete specimen sold at auction for $6.1 million in 2022."
+    ],
+    "related_species": ["tyrannosaurus-rex", "albertosaurus-sarcophagus"]
+  },
+  {
+    "id": "carcharodontosaurus-saharicus",
+    "scientific_name": "Carcharodontosaurus saharicus",
+    "common_name": "Shark-Toothed Lizard",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Carcharodontosauridae", "genus": "Carcharodontosaurus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 100.0, "end_mya": 94.0},
+    "diet": "carnivore",
+    "size": {"length_m": 12.0, "height_m": 3.6, "weight_kg": 6200},
+    "locomotion": "bipedal",
+    "fossil_locations": ["Africa — Morocco", "Africa — Algeria", "Africa — Egypt"],
+    "description": "Carcharodontosaurus was one of the largest predatory dinosaurs in Africa, rivalling T. rex in size. Its name means 'shark-toothed lizard', referring to its serrated, blade-like teeth that resembled those of the great white shark. It shared its North African environment with Spinosaurus, though they likely occupied different ecological niches — Carcharodontosaurus as a terrestrial apex predator and Spinosaurus as a semi-aquatic fish hunter.",
+    "fun_facts": [
+      "Named for its teeth that resemble those of a great white shark.",
+      "The original fossils were destroyed in WWII; new specimens were found in the 1990s.",
+      "It lived alongside Spinosaurus and Sarcosuchus (a giant crocodilian).",
+      "Its skull alone was about 1.6 metres long."
+    ],
+    "related_species": ["giganotosaurus-carolinii", "mapusaurus-roseae"]
+  },
+  {
+    "id": "suchomimus-tenerensis",
+    "scientific_name": "Suchomimus tenerensis",
+    "common_name": "Crocodile Mimic",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Spinosauridae", "genus": "Suchomimus"},
+    "period": {"name": "Early Cretaceous", "start_mya": 121.0, "end_mya": 113.0},
+    "diet": "carnivore",
+    "size": {"length_m": 11.0, "height_m": 3.0, "weight_kg": 3800},
+    "locomotion": "bipedal",
+    "fossil_locations": ["Africa — Niger"],
+    "description": "Suchomimus was a large spinosaurid dinosaur that, like its relatives Baryonyx and Spinosaurus, was adapted for a fish-eating lifestyle. Its long, narrow snout contained over 100 conical teeth, and it bore a large thumb claw. A low sail-like ridge ran along its back, formed by elongated vertebral spines. Found in the Sahara region of Niger, it inhabited lush river environments that bore no resemblance to today's desert landscape.",
+    "fun_facts": [
+      "Its snout contained over 100 teeth.",
+      "Found in the Sahara, which was a lush riverine environment during the Cretaceous.",
+      "Named by Paul Sereno's team in 1998.",
+      "It was closely related to Spinosaurus but lacked the enormous sail."
+    ],
+    "related_species": ["spinosaurus-aegyptiacus", "baryonyx-walkeri"]
+  },
+  {
+    "id": "torosaurus-latus",
+    "scientific_name": "Torosaurus latus",
+    "common_name": "Perforated Lizard",
+    "classification": {"order": "Ornithischia", "suborder": "Ceratopsia", "family": "Ceratopsidae", "genus": "Torosaurus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 68.0, "end_mya": 66.0},
+    "diet": "herbivore",
+    "size": {"length_m": 8.0, "height_m": 2.5, "weight_kg": 5000},
+    "locomotion": "quadrupedal",
+    "fossil_locations": ["North America — Montana", "North America — Wyoming", "North America — South Dakota", "North America — Utah"],
+    "description": "Torosaurus possessed one of the largest skulls of any land animal — up to 2.77 metres long. Its frill was longer and thinner than that of Triceratops, with large openings (fenestrae). A controversial hypothesis proposed in 2010 suggested that Torosaurus was actually a mature form of Triceratops, whose frill expanded and developed openings as it aged. This debate remains unresolved, though most evidence currently supports keeping them as separate genera.",
+    "fun_facts": [
+      "Its skull could reach 2.77 metres — one of the largest of any land animal.",
+      "Some scientists proposed it was actually an old Triceratops.",
+      "Despite its name, 'toro' refers to 'perforated' (the frill holes), not 'bull'.",
+      "It lived alongside Triceratops in the very latest Cretaceous."
+    ],
+    "related_species": ["triceratops-horridus"]
+  },
+  {
+    "id": "euoplocephalus-tutus",
+    "scientific_name": "Euoplocephalus tutus",
+    "common_name": "Well-Armoured Head",
+    "classification": {"order": "Ornithischia", "suborder": "Thyreophora", "family": "Ankylosauridae", "genus": "Euoplocephalus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 76.5, "end_mya": 67.0},
+    "diet": "herbivore",
+    "size": {"length_m": 6.0, "height_m": 1.8, "weight_kg": 2300},
+    "locomotion": "quadrupedal",
+    "fossil_locations": ["North America — Alberta"],
+    "description": "Euoplocephalus was one of the best-known ankylosaurid dinosaurs, with over 40 specimens discovered. Like its relative Ankylosaurus, it was heavily armoured with bony osteoderms and possessed a bony tail club. Its armour was so extensive that even its eyelids were protected by bony shutters. Despite being a common Late Cretaceous herbivore, no two specimens have been found together, suggesting it was a solitary animal.",
+    "fun_facts": [
+      "Even its eyelids had bony armour.",
+      "Over 40 specimens have been found, but always alone — suggesting solitary behaviour.",
+      "Its tail club could be swung with devastating force.",
+      "One of the most completely known ankylosaurs."
+    ],
+    "related_species": ["ankylosaurus-magniventris"]
+  },
+  {
+    "id": "giraffatitan-brancai",
+    "scientific_name": "Giraffatitan brancai",
+    "common_name": "Giant Giraffe",
+    "classification": {"order": "Saurischia", "suborder": "Sauropodomorpha", "family": "Brachiosauridae", "genus": "Giraffatitan"},
+    "period": {"name": "Late Jurassic", "start_mya": 154.0, "end_mya": 150.0},
+    "diet": "herbivore",
+    "size": {"length_m": 22.0, "height_m": 12.0, "weight_kg": 40000},
+    "locomotion": "quadrupedal",
+    "fossil_locations": ["Africa — Tanzania"],
+    "description": "Giraffatitan was long classified as an African species of Brachiosaurus before being recognized as a distinct genus. The famous mounted skeleton in the Museum für Naturkunde in Berlin — the tallest mounted dinosaur skeleton in the world at 13.27 metres — is actually Giraffatitan, not Brachiosaurus. Found in the Tendaguru beds of Tanzania, it reached similar heights to Brachiosaurus and was one of the tallest animals to ever walk the Earth.",
+    "fun_facts": [
+      "The famous Berlin brachiosaur skeleton is actually Giraffatitan.",
+      "At 13.27 metres, the Berlin mount is the tallest mounted dinosaur skeleton in the world.",
+      "It took over 500 workers four years to excavate the Tendaguru fossils.",
+      "Once classified as Brachiosaurus brancai before being reclassified."
+    ],
+    "related_species": ["brachiosaurus-altithorax"]
+  },
+  {
+    "id": "lambeosaurus-lambei",
+    "scientific_name": "Lambeosaurus lambei",
+    "common_name": "Lambe's Lizard",
+    "classification": {"order": "Ornithischia", "suborder": "Ornithopoda", "family": "Hadrosauridae", "genus": "Lambeosaurus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 76.5, "end_mya": 75.0},
+    "diet": "herbivore",
+    "size": {"length_m": 9.4, "height_m": 2.5, "weight_kg": 2800},
+    "locomotion": "bipedal",
+    "fossil_locations": ["North America — Alberta", "North America — Montana"],
+    "description": "Lambeosaurus was a crested hadrosaurid with a distinctive hatchet-shaped crest that pointed forward. One species, Lambeosaurus magnicristatus, had the largest crest relative to body size of any known hadrosaurid. Like other lambeosaurine hadrosaurs, the crest contained hollow nasal passages that could have been used for producing sounds and visual display. Named after Lawrence Lambe, one of the pioneers of Canadian vertebrate paleontology.",
+    "fun_facts": [
+      "Its hatchet-shaped crest pointed forward, unlike any other hadrosaurid.",
+      "Named after Canadian paleontologist Lawrence Lambe.",
+      "One species had a proportionally larger crest than any other duck-billed dinosaur.",
+      "It was one of the most common dinosaurs in the Dinosaur Park Formation of Alberta."
+    ],
+    "related_species": ["corythosaurus-casuarius", "parasaurolophus-walkeri"]
+  },
+  {
+    "id": "saurophaganax-maximus",
+    "scientific_name": "Saurophaganax maximus",
+    "common_name": "Greatest Lizard Eater",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Allosauridae", "genus": "Saurophaganax"},
+    "period": {"name": "Late Jurassic", "start_mya": 151.0, "end_mya": 148.0},
+    "diet": "carnivore",
+    "size": {"length_m": 13.0, "height_m": 4.0, "weight_kg": 3000},
+    "locomotion": "bipedal",
+    "fossil_locations": ["North America — Oklahoma"],
+    "description": "Saurophaganax was the largest predator of the Late Jurassic Morrison Formation, exceeding even Allosaurus in size. Some paleontologists consider it a large species of Allosaurus (A. maximus), while others retain it as a separate genus. At roughly 13 metres long, it was among the largest Jurassic theropods known. It is the state fossil of Oklahoma.",
+    "fun_facts": [
+      "Possibly the largest predator of the Jurassic period.",
+      "Its status as a separate genus or large Allosaurus species is still debated.",
+      "State fossil of Oklahoma.",
+      "Known from only fragmentary remains, making size estimates uncertain."
+    ],
+    "related_species": ["allosaurus-fragilis"]
+  },
+  {
+    "id": "mapusaurus-roseae",
+    "scientific_name": "Mapusaurus roseae",
+    "common_name": "Earth Lizard",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Carcharodontosauridae", "genus": "Mapusaurus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 97.0, "end_mya": 94.0},
+    "diet": "carnivore",
+    "size": {"length_m": 12.5, "height_m": 3.5, "weight_kg": 3000},
+    "locomotion": "bipedal",
+    "fossil_locations": ["South America — Argentina"],
+    "description": "Mapusaurus was a large carcharodontosaurid theropod closely related to Giganotosaurus. It is notable for being found in a bonebed containing at least seven individuals of varying ages, providing some of the best evidence for gregarious or pack-hunting behaviour in large theropods. This bonebeed suggests they may have hunted the enormous Argentinosaurus cooperatively.",
+    "fun_facts": [
+      "A bonebed with at least 7 individuals suggests group behaviour.",
+      "It may have hunted Argentinosaurus in packs.",
+      "Closely related to Giganotosaurus but slightly smaller.",
+      "Described by paleontologists Rodolfo Coria and Phil Currie in 2006."
+    ],
+    "related_species": ["giganotosaurus-carolinii", "carcharodontosaurus-saharicus"]
+  },
+  {
+    "id": "barosaurus-lentus",
+    "scientific_name": "Barosaurus lentus",
+    "common_name": "Heavy Lizard",
+    "classification": {"order": "Saurischia", "suborder": "Sauropodomorpha", "family": "Diplodocidae", "genus": "Barosaurus"},
+    "period": {"name": "Late Jurassic", "start_mya": 154.0, "end_mya": 150.0},
+    "diet": "herbivore",
+    "size": {"length_m": 26.0, "height_m": 5.0, "weight_kg": 12000},
+    "locomotion": "quadrupedal",
+    "fossil_locations": ["North America — South Dakota", "North America — Utah", "Africa — Tanzania"],
+    "description": "Barosaurus was a diplodocid sauropod very similar to Diplodocus but with proportionally longer neck vertebrae. A famous mount in the American Museum of Natural History shows a rearing Barosaurus defending its young from an Allosaurus. Whether sauropods could actually rear up on their hind legs is debated, but the display is one of the most dramatic in any museum.",
+    "fun_facts": [
+      "The AMNH mount shows it rearing on hind legs — a debated behaviour.",
+      "Its neck vertebrae were up to 1 metre long.",
+      "Very similar to Diplodocus but with a proportionally longer neck.",
+      "Found on multiple continents, suggesting wide dispersal."
+    ],
+    "related_species": ["diplodocus-longus", "apatosaurus-ajax"]
+  },
+  {
+    "id": "stygimoloch-spinifer",
+    "scientific_name": "Stygimoloch spinifer",
+    "common_name": "Demon from the River Styx",
+    "classification": {"order": "Ornithischia", "suborder": "Pachycephalosauria", "family": "Pachycephalosauridae", "genus": "Stygimoloch"},
+    "period": {"name": "Late Cretaceous", "start_mya": 66.5, "end_mya": 66.0},
+    "diet": "omnivore",
+    "size": {"length_m": 3.0, "height_m": 1.2, "weight_kg": 78},
+    "locomotion": "bipedal",
+    "fossil_locations": ["North America — Montana", "North America — Wyoming"],
+    "description": "Stygimoloch is one of the most dramatically ornamented pachycephalosaurs, with clusters of long horns projecting from the back of its skull and a relatively small dome. Some paleontologists argue it may simply be a juvenile or subadult form of Pachycephalosaurus, noting that the dome grows and the horns shrink as pachycephalosaurs mature. If true, this would mean Stygimoloch is not a distinct genus — a controversy that remains actively debated.",
+    "fun_facts": [
+      "Its name literally means 'demon from the river of death'.",
+      "It may not be a valid genus — possibly a juvenile Pachycephalosaurus.",
+      "Its skull horns were purely for display, being too fragile for combat.",
+      "One of the last dinosaurs to evolve before the K-Pg extinction."
+    ],
+    "related_species": ["pachycephalosaurus-wyomingensis"]
+  },
+  {
+    "id": "dreadnoughtus-schrani",
+    "scientific_name": "Dreadnoughtus schrani",
+    "common_name": "Fears Nothing",
+    "classification": {"order": "Saurischia", "suborder": "Sauropodomorpha", "family": "Titanosauridae", "genus": "Dreadnoughtus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 77.0, "end_mya": 75.0},
+    "diet": "herbivore",
+    "size": {"length_m": 26.0, "height_m": 6.0, "weight_kg": 59000},
+    "locomotion": "quadrupedal",
+    "fossil_locations": ["South America — Argentina"],
+    "description": "Dreadnoughtus is one of the most massive dinosaurs with a reliably calculable body mass, thanks to the exceptional completeness of its skeleton — about 70% was recovered. At an estimated 59 tonnes, it was comparable to a Boeing 737. Remarkably, bone histology analysis shows the known specimen was still growing when it died, meaning full-grown adults may have been even larger.",
+    "fun_facts": [
+      "Named after early 20th-century battleships — 'dreadnought' means 'fears nothing'.",
+      "The known specimen was still growing when it died.",
+      "About 70% of its skeleton was recovered — exceptional for a giant sauropod.",
+      "At 59 tonnes, it weighed as much as a Boeing 737."
+    ],
+    "related_species": ["argentinosaur-huinculensis", "patagotitan-mayorum"]
+  },
+  {
+    "id": "patagotitan-mayorum",
+    "scientific_name": "Patagotitan mayorum",
+    "common_name": "Patagonian Titan",
+    "classification": {"order": "Saurischia", "suborder": "Sauropodomorpha", "family": "Titanosauridae", "genus": "Patagotitan"},
+    "period": {"name": "Late Cretaceous", "start_mya": 101.0, "end_mya": 95.0},
+    "diet": "herbivore",
+    "size": {"length_m": 37.0, "height_m": 7.0, "weight_kg": 69000},
+    "locomotion": "quadrupedal",
+    "fossil_locations": ["South America — Argentina"],
+    "description": "Patagotitan is one of the largest dinosaurs known from relatively complete remains. Six individuals were discovered at a single site in Patagonia, Argentina. With an estimated weight of 69 tonnes and length of 37 metres, it challenges Argentinosaurus for the title of heaviest land animal ever. A cast of its skeleton was installed in the American Museum of Natural History, where it is so large it extends out of the gallery into the hallway.",
+    "fun_facts": [
+      "Its femur (thigh bone) alone was 2.4 metres long.",
+      "Six individuals were found at one site, suggesting gregarious behaviour.",
+      "Its AMNH mount is so large it extends into the hallway.",
+      "Discovered by a ranch worker who spotted a giant bone sticking out of the ground."
+    ],
+    "related_species": ["argentinosaur-huinculensis", "dreadnoughtus-schrani"]
+  },
+  {
+    "id": "ornithomimus-edmontonicus",
+    "scientific_name": "Ornithomimus edmontonicus",
+    "common_name": "Bird Mimic",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Ornithomimidae", "genus": "Ornithomimus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 69.0, "end_mya": 66.0},
+    "diet": "omnivore",
+    "size": {"length_m": 3.8, "height_m": 1.3, "weight_kg": 170},
+    "locomotion": "bipedal",
+    "fossil_locations": ["North America — Alberta", "North America — Montana"],
+    "description": "Ornithomimus was an ostrich-like dinosaur with a toothless beak, long arms, and powerful running legs. It was one of the first ornithomimosaurs to be discovered and gave the entire family its name. Specimens from Alberta have been found with evidence of wing-like feather structures on the arms, providing direct fossil evidence of feathers in ornithomimosaurs. Its large eyes suggest excellent vision, possibly for detecting predators.",
+    "fun_facts": [
+      "Specimens with preserved feather evidence have been found in Alberta.",
+      "Its brain was large relative to body size, suggesting intelligence.",
+      "Like modern ostriches, it probably relied on speed to escape predators.",
+      "It gave its name to the entire ornithomimid family."
+    ],
+    "related_species": ["gallimimus-bullatus"]
+  },
+  {
+    "id": "sinornithosaurus-millenii",
+    "scientific_name": "Sinornithosaurus millenii",
+    "common_name": "Chinese Bird-Lizard",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Dromaeosauridae", "genus": "Sinornithosaurus"},
+    "period": {"name": "Early Cretaceous", "start_mya": 124.6, "end_mya": 122.0},
+    "diet": "carnivore",
+    "size": {"length_m": 1.2, "height_m": 0.3, "weight_kg": 3},
+    "locomotion": "bipedal",
+    "fossil_locations": ["Asia — China (Liaoning)"],
+    "description": "Sinornithosaurus was the fifth feathered dinosaur to be discovered and provided important evidence about the diversity of feathered theropods. Its well-preserved plumage shows different types of feathers across its body. A controversial paper suggested it may have been venomous, based on grooved teeth and a possible venom gland space in the skull, but this interpretation is disputed. Analysis of fossilized melanosomes suggests its feathers were reddish-brown and yellow.",
+    "fun_facts": [
+      "Its feather colours have been reconstructed as reddish-brown and yellow.",
+      "A controversial paper suggested it was venomous, though most scientists disagree.",
+      "The fifth feathered dinosaur discovered.",
+      "Exceptionally well-preserved specimens come from the Yixian Formation."
+    ],
+    "related_species": ["microraptor-gui", "velociraptor-mongoliensis"]
+  },
+  {
+    "id": "mantellisaurus-atherfieldensis",
+    "scientific_name": "Mantellisaurus atherfieldensis",
+    "common_name": "Mantell's Lizard",
+    "classification": {"order": "Ornithischia", "suborder": "Ornithopoda", "family": "Iguanodontidae", "genus": "Mantellisaurus"},
+    "period": {"name": "Early Cretaceous", "start_mya": 130.0, "end_mya": 125.0},
+    "diet": "herbivore",
+    "size": {"length_m": 7.0, "height_m": 2.0, "weight_kg": 750},
+    "locomotion": "bipedal",
+    "fossil_locations": ["Europe — England"],
+    "description": "Mantellisaurus was a medium-sized ornithopod closely related to Iguanodon but more lightly built. Originally classified as a species of Iguanodon, it was reclassified as its own genus in 2007. Named after Gideon Mantell, the pioneer who first described Iguanodon. It was one of the most common dinosaurs in Early Cretaceous Europe.",
+    "fun_facts": [
+      "Named after Gideon Mantell, the man who first described Iguanodon.",
+      "Was classified as Iguanodon for over a century before getting its own genus.",
+      "More lightly built and probably faster than Iguanodon.",
+      "Several complete skeletons have been found in England."
+    ],
+    "related_species": ["iguanodon-bernissartensis"]
+  },
+  {
+    "id": "abelisaurus-comahuensis",
+    "scientific_name": "Abelisaurus comahuensis",
+    "common_name": "Abel's Lizard",
+    "classification": {"order": "Saurischia", "suborder": "Theropoda", "family": "Abelisauridae", "genus": "Abelisaurus"},
+    "period": {"name": "Late Cretaceous", "start_mya": 83.5, "end_mya": 80.0},
+    "diet": "carnivore",
+    "size": {"length_m": 9.0, "height_m": 3.0, "weight_kg": 3000},
+    "locomotion": "bipedal",
+    "fossil_locations": ["South America — Argentina"],
+    "description": "Abelisaurus is the founding member of the Abelisauridae family, a group of predatory dinosaurs that dominated the southern continents (Gondwana) during the Cretaceous. Known only from a partial skull, it is less completely known than its relatives Carnotaurus and Majungasaurus. The abelisaurids filled the apex predator role in the southern hemisphere that tyrannosaurs occupied in the north.",
+    "fun_facts": [
+      "Gave its name to the entire Abelisauridae family.",
+      "Known only from a partial skull — much of its anatomy is inferred from relatives.",
+      "Named after Roberto Abel, the museum director who discovered it.",
+      "Abelisaurids were the T. rex equivalents of the southern continents."
+    ],
+    "related_species": ["carnotaurus-sastrei"]
+  }
+]

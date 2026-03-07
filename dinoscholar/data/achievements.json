@@ -1,0 +1,162 @@
+[
+  {
+    "id": "first_steps",
+    "name": "First Steps",
+    "description": "Register your profile and begin your paleontology journey.",
+    "icon": "🦶",
+    "trigger": "registration",
+    "criteria": {}
+  },
+  {
+    "id": "curious_mind",
+    "name": "Curious Mind",
+    "description": "View your first species in the encyclopedia.",
+    "icon": "🔍",
+    "trigger": "species_viewed",
+    "criteria": {"count": 1}
+  },
+  {
+    "id": "field_researcher",
+    "name": "Field Researcher",
+    "description": "View 10 different species in the encyclopedia.",
+    "icon": "📋",
+    "trigger": "species_viewed",
+    "criteria": {"count": 10}
+  },
+  {
+    "id": "encyclopedist",
+    "name": "Encyclopedist",
+    "description": "View 25 different species in the encyclopedia.",
+    "icon": "📖",
+    "trigger": "species_viewed",
+    "criteria": {"count": 25}
+  },
+  {
+    "id": "species_master",
+    "name": "Species Master",
+    "description": "View every species in the encyclopedia.",
+    "icon": "🏆",
+    "trigger": "species_viewed",
+    "criteria": {"count": 50}
+  },
+  {
+    "id": "first_lesson",
+    "name": "Enrolled Student",
+    "description": "Complete your first lesson.",
+    "icon": "📝",
+    "trigger": "lesson_completed",
+    "criteria": {"count": 1}
+  },
+  {
+    "id": "bookworm",
+    "name": "Bookworm",
+    "description": "Complete 10 lessons.",
+    "icon": "📚",
+    "trigger": "lesson_completed",
+    "criteria": {"count": 10}
+  },
+  {
+    "id": "scholar",
+    "name": "Scholar",
+    "description": "Complete 25 lessons.",
+    "icon": "🎓",
+    "trigger": "lesson_completed",
+    "criteria": {"count": 25}
+  },
+  {
+    "id": "first_quiz",
+    "name": "Quiz Taker",
+    "description": "Complete your first quiz.",
+    "icon": "❓",
+    "trigger": "quiz_submitted",
+    "criteria": {"count": 1}
+  },
+  {
+    "id": "quiz_regular",
+    "name": "Quiz Regular",
+    "description": "Complete 10 quizzes.",
+    "icon": "🧠",
+    "trigger": "quiz_submitted",
+    "criteria": {"count": 10}
+  },
+  {
+    "id": "perfect_score",
+    "name": "Perfect Score",
+    "description": "Score 100% on any quiz.",
+    "icon": "💯",
+    "trigger": "quiz_submitted",
+    "criteria": {"perfect": true}
+  },
+  {
+    "id": "streak_3",
+    "name": "Getting Consistent",
+    "description": "Maintain a 3-day study streak.",
+    "icon": "🔥",
+    "trigger": "session_ended",
+    "criteria": {"streak_days": 3}
+  },
+  {
+    "id": "streak_7",
+    "name": "Weekly Warrior",
+    "description": "Maintain a 7-day study streak.",
+    "icon": "⚡",
+    "trigger": "session_ended",
+    "criteria": {"streak_days": 7}
+  },
+  {
+    "id": "streak_30",
+    "name": "Monthly Master",
+    "description": "Maintain a 30-day study streak.",
+    "icon": "🌟",
+    "trigger": "session_ended",
+    "criteria": {"streak_days": 30}
+  },
+  {
+    "id": "comparator",
+    "name": "Comparator",
+    "description": "Compare two species for the first time.",
+    "icon": "⚖️",
+    "trigger": "comparison_made",
+    "criteria": {"count": 1}
+  },
+  {
+    "id": "module_complete",
+    "name": "Module Graduate",
+    "description": "Complete all lessons in a module.",
+    "icon": "🎖️",
+    "trigger": "lesson_completed",
+    "criteria": {"module_complete": true}
+  },
+  {
+    "id": "time_traveler",
+    "name": "Time Traveler",
+    "description": "Explore all geological periods in the timeline.",
+    "icon": "⏳",
+    "trigger": "period_viewed",
+    "criteria": {"count": 9}
+  },
+  {
+    "id": "night_owl",
+    "name": "Night Owl",
+    "description": "Study after midnight.",
+    "icon": "🦉",
+    "trigger": "session_ended",
+    "criteria": {"late_night": true}
+  },
+  {
+    "id": "speed_demon",
+    "name": "Speed Demon",
+    "description": "Score 80% or higher on a timed quiz.",
+    "icon": "⏱️",
+    "trigger": "quiz_submitted",
+    "criteria": {"timed": true, "min_score_pct": 80}
+  },
+  {
+    "id": "daily_devotee",
+    "name": "Daily Devotee",
+    "description": "Complete 5 daily quizzes.",
+    "icon": "📅",
+    "trigger": "quiz_submitted",
+    "criteria": {"daily_count": 5}
+  }
+]

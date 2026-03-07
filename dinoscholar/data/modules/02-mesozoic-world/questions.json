@@ -1,0 +1,77 @@
+[
+  {
+    "module_id": "02-mesozoic-world",
+    "questions": [
+      {
+        "id": "m02q01",
+        "text": "What mass extinction immediately preceded the rise of dinosaurs in the Triassic?",
+        "choices": ["Ordovician-Silurian extinction", "Cretaceous-Paleogene extinction", "Permian-Triassic extinction", "End-Triassic extinction"],
+        "answer": 2,
+        "explanation": "The Permian-Triassic extinction ('The Great Dying') killed over 90% of marine species and preceded the Triassic, the period when dinosaurs first evolved."
+      },
+      {
+        "id": "m02q02",
+        "text": "Which sauropod was distinctive for having longer front legs than hind legs?",
+        "choices": ["Diplodocus", "Apatosaurus", "Brachiosaurus", "Argentinosaurus"],
+        "answer": 2,
+        "explanation": "Brachiosaurus had longer front legs than hind legs, giving it an upward-sloping posture ideal for high browsing — unlike most other sauropods."
+      },
+      {
+        "id": "m02q03",
+        "text": "What major botanical innovation occurred during the Cretaceous that transformed terrestrial ecosystems?",
+        "choices": ["First mosses appeared", "Flowering plants diversified", "Conifers became dominant", "Ferns went extinct"],
+        "answer": 1,
+        "explanation": "Flowering plants (angiosperms) appeared and diversified explosively during the Cretaceous, fundamentally transforming terrestrial ecosystems and driving diversification of herbivorous dinosaurs."
+      },
+      {
+        "id": "m02q04",
+        "text": "The Western Interior Seaway split which continent during the Late Cretaceous?",
+        "choices": ["Europe", "Africa", "North America", "South America"],
+        "answer": 2,
+        "explanation": "The Western Interior Seaway was a vast inland sea stretching from the Gulf of Mexico to the Arctic Ocean, splitting North America into eastern and western landmasses from ~100-70 Mya."
+      },
+      {
+        "id": "m02q05",
+        "text": "What was Pangaea?",
+        "choices": ["The northern supercontinent", "The southern supercontinent", "A supercontinent comprising all major landmasses", "The name of the first land animal"],
+        "answer": 2,
+        "explanation": "Pangaea was the supercontinent comprising all of Earth's major landmasses during the late Paleozoic and early Mesozoic. Its breakup during the Mesozoic isolated dinosaur populations."
+      },
+      {
+        "id": "m02q06",
+        "text": "Pterosaurs were flying dinosaurs. True or false?",
+        "choices": ["True", "False"],
+        "answer": 1,
+        "explanation": "False! Pterosaurs were flying reptiles closely related to dinosaurs but NOT dinosaurs themselves. They were a separate group of archosaurs that independently evolved powered flight."
+      },
+      {
+        "id": "m02q07",
+        "text": "Why were Mesozoic atmospheric CO₂ levels much higher than today?",
+        "choices": ["Dinosaur respiration", "Intense volcanic activity and continental breakup", "Burning fossil fuels", "Absence of photosynthesis"],
+        "answer": 1,
+        "explanation": "High Mesozoic CO₂ was driven by intense volcanic activity at mid-ocean ridges during continental breakup, large igneous province eruptions, and the absence of major carbon-sequestering ice sheets."
+      },
+      {
+        "id": "m02q08",
+        "text": "What extinction event cleared the way for dinosaur dominance at the start of the Jurassic?",
+        "choices": ["K-Pg extinction", "Permian-Triassic extinction", "End-Triassic extinction", "Cenomanian-Turonian extinction"],
+        "answer": 2,
+        "explanation": "The end-Triassic extinction (~201 Mya) eliminated many competing groups including rauisuchians and large amphibians, allowing dinosaurs to diversify and dominate from the Jurassic onward."
+      },
+      {
+        "id": "m02q09",
+        "text": "Which group of predators filled the apex predator role on SOUTHERN continents during the Cretaceous?",
+        "choices": ["Tyrannosaurs", "Abelisaurids", "Spinosaurids", "Dromaeosaurids"],
+        "answer": 1,
+        "explanation": "Abelisaurids (like Carnotaurus) were the dominant apex predators on southern continents (Gondwana), while tyrannosaurs dominated in the north (Laurasia)."
+      },
+      {
+        "id": "m02q10",
+        "text": "What remarkable discovery about Cretaceous mammals shows they weren't always tiny and submissive?",
+        "choices": ["Some mammmals could fly", "Repenomamus was found with a baby dinosaur in its stomach", "Mammals hunted in packs", "The first marine mammal existed"],
+        "answer": 1,
+        "explanation": "Repenomamus, a badger-sized Cretaceous mammal, was found with a baby dinosaur in its stomach — proving that not all Mesozoic mammals were tiny prey items."
+      }
+    ]
+  }
+]

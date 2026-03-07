@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% block title %}{{ species.scientific_name }} — DinoScholar{% endblock %}
+{% block content %}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ url_for('encyclopedia.list_species') }}">Encyclopedia</a></li>
+        <li class="breadcrumb-item active">{{ species.scientific_name }}</li>
+    </ol>
+</nav>
+
+<div class="row">
+    <div class="col-md-8">
+        <h1><em>{{ species.scientific_name }}</em></h1>
+        {% if species.common_name %}
+        <p class="lead text-muted">{{ species.common_name }}</p>
+        {% endif %}
+
+        <div class="card mb-4">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <strong>Period:</strong> {{ species.period }}<br>
+                        <small class="text-muted">{{ species.period_start_mya }}–{{ species.period_end_mya }} MYA</small>
+                    </div>
+                    <div class="col-sm-6">
+                        <strong>Diet:</strong>
+                        <span class="badge bg-{% if species.diet == 'carnivore' %}danger{% elif species.diet == 'herbivore' %}success{% else %}info{% endif %}">{{ species.diet|capitalize }}</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-4"><strong>Length:</strong> {{ species.length_m }} m</div>
+                    <div class="col-sm-4"><strong>Height:</strong> {{ species.height_m }} m</div>
+                    <div class="col-sm-4"><strong>Weight:</strong> {{ species.weight_kg|int }} kg</div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-6"><strong>Locomotion:</strong> {{ species.locomotion|capitalize }}</div>
+                    <div class="col-sm-6"><strong>Order:</strong> {{ species.order }}</div>
+                </div>
+            </div>
+        </div>
+
+        <h3>Classification</h3>
+        <ul>
+            <li><strong>Order:</strong> {{ species.order }}</li>
+            <li><strong>Suborder:</strong> {{ species.suborder }}</li>
+            <li><strong>Family:</strong> {{ species.family }}</li>
+            <li><strong>Genus:</strong> {{ species.genus }}</li>
+        </ul>
+
+        <h3>Description</h3>
+        <p>{{ species.description }}</p>
+
+        {% if species.fun_facts %}
+        <h3>Fun Facts</h3>
+        <ul>
+        {% for fact in species.fun_facts %}
+            <li>{{ fact }}</li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if species.fossil_locations %}
+        <h3>Fossil Locations</h3>
+        <ul>
+        {% for loc in species.fossil_locations %}
+            <li>{{ loc }}</li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header"><strong>Size Comparison</strong></div>
+            <div class="card-body">
+                <div class="mb-2">
+                    <small>Length</small>
+                    <div class="progress" style="height: 20px;">
+                        <div class="progress-bar bg-info" style="width: {{ [species.length_m / 40 * 100, 100]|min }}%">{{ species.length_m }}m</div>
+                    </div>
+                </div>
+                <div class="mb-2">
+                    <small>Height</small>
+                    <div class="progress" style="height: 20px;">
+                        <div class="progress-bar bg-warning" style="width: {{ [species.height_m / 20 * 100, 100]|min }}%">{{ species.height_m }}m</div>
+                    </div>
+                </div>
+                <div class="mb-2">
+                    <small>Weight</small>
+                    <div class="progress" style="height: 20px;">
+                        <div class="progress-bar bg-danger" style="width: {{ [species.weight_kg / 80000 * 100, 100]|min }}%">{{ species.weight_kg|int }}kg</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% if related %}
+        <div class="card mt-3">
+            <div class="card-header"><strong>Related Species</strong></div>
+            <ul class="list-group list-group-flush">
+            {% for r in related %}
+                <li class="list-group-item">
+                    <a href="{{ url_for('encyclopedia.detail', species_id=r.id) }}"><em>{{ r.scientific_name }}</em></a>
+                </li>
+            {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+        <div class="mt-3">
+            <a href="{{ url_for('encyclopedia.compare', species=species.id) }}" class="btn btn-outline-primary w-100">⚖️ Compare with another</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

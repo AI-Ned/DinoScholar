@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %}{{ period.name }} — Timeline — DinoScholar{% endblock %}
+{% block content %}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ url_for('timeline.index') }}">Timeline</a></li>
+        <li class="breadcrumb-item active">{{ period.name }}</li>
+    </ol>
+</nav>
+
+<h1>{{ period.name }}</h1>
+<p class="lead">{{ period.era }} Era — {{ period.start_mya }}–{{ period.end_mya }} MYA</p>
+
+<div class="row">
+    <div class="col-md-8">
+        <h3>Overview</h3>
+        <p>{{ period.description }}</p>
+
+        {% if period.climate %}
+        <h3>Climate</h3>
+        <p>{{ period.climate }}</p>
+        {% endif %}
+
+        {% if period.key_events %}
+        <h3>Key Events</h3>
+        <ul>
+        {% for event in period.key_events %}
+            <li>{{ event }}</li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+
+    <div class="col-md-4">
+        {% if species %}
+        <div class="card">
+            <div class="card-header"><strong>Species in this period</strong></div>
+            <ul class="list-group list-group-flush">
+            {% for sp in species %}
+                <li class="list-group-item">
+                    <a href="{{ url_for('encyclopedia.detail', species_id=sp.id) }}">
+                        <em>{{ sp.scientific_name }}</em>
+                    </a>
+                </li>
+            {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

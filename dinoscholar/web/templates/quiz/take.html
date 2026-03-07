@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block title %}Quiz — DinoScholar{% endblock %}
+{% block head %}
+{% if timed %}
+<style>
+    #timer { position: sticky; top: 0; z-index: 100; }
+    #timer.warning { background-color: #dc3545 !important; }
+</style>
+{% endif %}
+{% endblock %}
+{% block content %}
+
+{% if timed %}
+<div id="timer" class="alert alert-dark text-center fs-4">
+    Time remaining: <span id="countdown">{{ time_limit_sec // 60 }}:{{ '%02d' % (time_limit_sec % 60) }}</span>
+</div>
+{% endif %}
+
+<h1>
+{% if quiz_type == 'daily' %}Daily Challenge
+{% elif quiz_type == 'timed' %}Timed Quiz
+{% else %}Module Quiz
+{% endif %}
+</h1>
+
+{% if questions %}
+<form method="post" action="{{ url_for('quiz.submit') }}" id="quizForm">
+    {% for q in questions %}
+    {% set q_idx = loop.index0 %}
+    <div class="card mb-3">
+        <div class="card-body">
+            <p><strong>{{ loop.index }}.</strong> {{ q.question }}
+                <span class="badge bg-secondary">{{ q.difficulty }}</span>
+            </p>
+            {% if q.type == 'multiple_choice' %}
+            {% for opt in q.options %}
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="answer_{{ q_idx }}" value="{{ loop.index0 }}">
+                <label class="form-check-label">{{ opt }}</label>
+            </div>
+            {% endfor %}
+            {% elif q.type == 'true_false' %}
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="answer_{{ loop.index0 }}" value="true">
+                <label class="form-check-label">True</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="answer_{{ loop.index0 }}" value="false">
+                <label class="form-check-label">False</label>
+            </div>
+            {% else %}
+            <input type="text" class="form-control" name="answer_{{ loop.index0 }}" placeholder="Your answer">
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+    <button type="submit" class="btn btn-success btn-lg">Submit Answers</button>
+</form>
+{% else %}
+<div class="alert alert-info">No questions available for this quiz.</div>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+{% if timed %}
+<script>
+(function() {
+    let remaining = {{ time_limit_sec }};
+    const el = document.getElementById('countdown');
+    const timerDiv = document.getElementById('timer');
+    const form = document.getElementById('quizForm');
+    const interval = setInterval(() => {
+        remaining--;
+        const mins = Math.floor(remaining / 60);
+        const secs = remaining % 60;
+        el.textContent = mins + ':' + String(secs).padStart(2, '0');
+        if (remaining <= 30) timerDiv.classList.add('warning');
+        if (remaining <= 0) {
+            clearInterval(interval);
+            form.submit();
+        }
+    }, 1000);
+})();
+</script>
+{% endif %}
+{% endblock %}

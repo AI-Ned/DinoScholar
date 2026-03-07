@@ -1,0 +1,15 @@
+{
+  "id": "03-anatomy-physiology",
+  "title": "Dinosaur Anatomy & Physiology",
+  "description": "Explore how dinosaurs were built — from hollow bones and air sacs to dental batteries and dermal armour. Understand the biomechanical adaptations that made dinosaurs the most successful land vertebrates in Earth's history.",
+  "order": 3,
+  "lessons": [
+    {"file": "01-skeletal-systems.md", "title": "Skeletal Systems and Locomotion", "order": 1},
+    {"file": "02-feeding-digestion.md", "title": "Feeding and Digestion", "order": 2},
+    {"file": "03-breathing-metabolism.md", "title": "Breathing and Metabolism", "order": 3},
+    {"file": "04-senses-brains.md", "title": "Senses and Brains", "order": 4},
+    {"file": "05-skin-feathers.md", "title": "Skin, Scales, and Feathers", "order": 5},
+    {"file": "06-growth-lifespan.md", "title": "Growth and Lifespan", "order": 6},
+    {"file": "07-size-extremes.md", "title": "The Extremes of Size", "order": 7}
+  ]
+}

@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+{% block title %}{{ lesson.title }} — DinoScholar{% endblock %}
+{% block content %}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ url_for('learning.modules') }}">Modules</a></li>
+        <li class="breadcrumb-item"><a href="{{ url_for('learning.module_detail', module_id=module.id) }}">{{ module.title }}</a></li>
+        <li class="breadcrumb-item active">{{ lesson.title }}</li>
+    </ol>
+</nav>
+
+<article class="lesson-content" style="max-width: 780px;">
+    {{ lesson.content_html|safe }}
+</article>
+
+{% if lesson.key_terms %}
+<hr>
+<h4>Key Terms</h4>
+<div class="d-flex flex-wrap gap-2">
+{% for term_id in lesson.key_terms %}
+    <a href="{{ url_for('main.glossary_term', term_id=term_id) }}" class="badge bg-secondary text-decoration-none">{{ term_id }}</a>
+{% endfor %}
+</div>
+{% endif %}
+
+{% if lesson.summary %}
+<div class="alert alert-info mt-4">
+    <strong>Summary:</strong> {{ lesson.summary }}
+</div>
+{% endif %}
+
+{% if questions %}
+<hr>
+<h3>Check Your Understanding</h3>
+{% for q in questions %}
+<div class="card mb-3 question-card" data-correct="{{ q.correct }}" data-explanation="{{ q.explanation }}">
+    <div class="card-body">
+        <p class="card-text"><strong>{{ loop.index }}.</strong> {{ q.question }}</p>
+        {% if q.type == 'multiple_choice' %}
+        {% for opt in q.options %}
+        <div class="form-check">
+            <input class="form-check-input check-answer" type="radio" name="check_{{ loop.parent.loop.index0 }}" value="{{ loop.index0 }}">
+            <label class="form-check-label">{{ opt }}</label>
+        </div>
+        {% endfor %}
+        {% elif q.type == 'true_false' %}
+        <div class="form-check">
+            <input class="form-check-input check-answer" type="radio" name="check_{{ loop.index0 }}" value="true">
+            <label class="form-check-label">True</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input check-answer" type="radio" name="check_{{ loop.index0 }}" value="false">
+            <label class="form-check-label">False</label>
+        </div>
+        {% endif %}
+        <div class="feedback mt-2" style="display: none;"></div>
+    </div>
+</div>
+{% endfor %}
+{% endif %}
+
+<hr>
+<div class="d-flex justify-content-between mt-3">
+    {% if not is_completed %}
+    <form method="post" action="{{ url_for('learning.mark_complete', module_id=module.id, lesson_id=lesson.id) }}">
+        <button type="submit" class="btn btn-success">✅ Mark Complete{% if next_lesson %} & Continue{% endif %}</button>
+    </form>
+    {% else %}
+    <span class="badge bg-success fs-6 p-2">✅ Completed</span>
+    {% endif %}
+    {% if next_lesson %}
+    <a href="{{ url_for('learning.lesson', module_id=module.id, lesson_id=next_lesson.id) }}" class="btn btn-outline-primary">Next: {{ next_lesson.title }} →</a>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.querySelectorAll('.check-answer').forEach(input => {
+    input.addEventListener('change', function() {
+        const card = this.closest('.question-card');
+        const correct = card.dataset.correct;
+        const explanation = card.dataset.explanation;
+        const feedback = card.querySelector('.feedback');
+        const value = this.value;
+        let isCorrect = false;
+        if (correct === 'true' || correct === 'false') {
+            isCorrect = value === correct;
+        } else {
+            isCorrect = parseInt(value) === parseInt(correct);
+        }
+        feedback.style.display = 'block';
+        if (isCorrect) {
+            feedback.className = 'feedback mt-2 alert alert-success';
+            feedback.innerHTML = '<strong>Correct!</strong> ' + explanation;
+        } else {
+            feedback.className = 'feedback mt-2 alert alert-danger';
+            feedback.innerHTML = '<strong>Incorrect.</strong> ' + explanation;
+        }
+    });
+});
+</script>
+{% endblock %}

@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block title %}Dashboard — DinoScholar{% endblock %}
+{% block content %}
+<h1>Dashboard</h1>
+<p class="text-muted">Welcome back, <strong>{{ user.username }}</strong></p>
+
+<div class="row g-4 mt-3">
+    <div class="col-md-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Lessons Done</h5>
+                <p class="display-6">{{ progress.get('lessons_completed', 0) }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Quizzes Taken</h5>
+                <p class="display-6">{{ progress.get('quizzes_taken', 0) }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Avg Score</h5>
+                <p class="display-6">{{ progress.get('avg_score', 0) }}%</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Study Time</h5>
+                <p class="display-6">{{ progress.get('study_time_hours', 0) }}h</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2 class="mt-5">Module Progress</h2>
+{% if module_progress %}
+{% for mp in module_progress %}
+<div class="mb-3">
+    <div class="d-flex justify-content-between">
+        <span>{{ mp.module.title }}</span>
+        <span>{{ mp.completed }}/{{ mp.total }}</span>
+    </div>
+    <div class="progress" style="height: 20px;">
+        <div class="progress-bar bg-success" style="width: {{ mp.percent }}%">{{ mp.percent }}%</div>
+    </div>
+</div>
+{% endfor %}
+{% else %}
+<p class="text-muted">No modules available yet.</p>
+{% endif %}
+
+<h2 class="mt-5">Achievements</h2>
+<div class="row g-3">
+{% for a in achievements %}
+<div class="col-md-3 col-sm-6">
+    <div class="card text-center {% if a.unlocked %}border-success{% else %}text-muted{% endif %}">
+        <div class="card-body">
+            <h6>{{ a.name }}</h6>
+            <small>{{ a.description }}</small>
+            {% if a.unlocked %}
+            <div class="mt-2"><span class="badge bg-success">Unlocked</span></div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endfor %}
+</div>
+{% endblock %}

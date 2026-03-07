@@ -1,0 +1,9 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "ForEach-Object": true,
+        "ConvertFrom-Json": true,
+        "&": true,
+        ".\\.venv\\Scripts\\python.exe": true,
+        "Test-Path": true
+    }
+}

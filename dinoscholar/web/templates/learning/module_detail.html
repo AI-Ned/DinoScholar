@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}{{ module.title }} — DinoScholar{% endblock %}
+{% block content %}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ url_for('learning.modules') }}">Modules</a></li>
+        <li class="breadcrumb-item active">{{ module.title }}</li>
+    </ol>
+</nav>
+
+<h1>{{ module.title }}</h1>
+<p>{{ module.description }}</p>
+
+<h3>Lessons</h3>
+<div class="list-group">
+{% for lesson in module.lessons %}
+    <a href="{{ url_for('learning.lesson', module_id=module.id, lesson_id=lesson.id) }}"
+       class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        <span>
+            {% if lesson.id in completed_ids %}✅{% else %}⬜{% endif %}
+            {{ lesson.title }}
+        </span>
+        <span class="badge bg-secondary">Lesson {{ lesson.order }}</span>
+    </a>
+{% endfor %}
+</div>
+
+<div class="mt-4">
+    <a href="{{ url_for('quiz.module_quiz', module_id=module.id) }}" class="btn btn-warning">🏆 Take Module Quiz</a>
+</div>
+{% endblock %}

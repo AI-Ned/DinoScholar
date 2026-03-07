@@ -1,0 +1,82 @@
+[
+  {
+    "id": "m6q1",
+    "module": "06-fossils-discovery",
+    "question": "What type of rock are dinosaur fossils most commonly found in?",
+    "choices": ["Igneous rock (solidified lava)", "Metamorphic rock (heat-altered)", "Sedimentary rock (accumulated sediment)", "All rock types equally"],
+    "answer": 2,
+    "explanation": "Fossils form in sedimentary rocks — sandstone, mudstone, limestone — which are deposited in environments like river floodplains, lakebeds, and shallow seas."
+  },
+  {
+    "id": "m6q2",
+    "module": "06-fossils-discovery",
+    "question": "What is the standard field technique for protecting fossils during transport?",
+    "choices": ["Wrapping in bubble wrap", "Plaster jacketing with burlap strips", "Freezing the surrounding rock", "Dissolving the matrix with acid in the field"],
+    "answer": 1,
+    "explanation": "Plaster jacketing — covering the fossil block in burlap strips soaked in plaster of Paris — creates a rigid protective shell. This technique has been used virtually unchanged since the 1877 Bone Wars."
+  },
+  {
+    "id": "m6q3",
+    "module": "06-fossils-discovery",
+    "question": "Why are most dinosaur skeletons on display in museums actually casts?",
+    "choices": ["Originals are too light and fragile for mounts", "Casts are more visually appealing", "Originals are too heavy, valuable, and fragile for permanent display", "Law requires originals to remain underground"],
+    "answer": 2,
+    "explanation": "Original fossils are denser than fresh bone, scientifically valuable, and often fragile. Casts are lighter, allow originals to be preserved for research, and can be shared across multiple institutions."
+  },
+  {
+    "id": "m6q4",
+    "module": "06-fossils-discovery",
+    "question": "What Chinese formation revolutionised our understanding of feathered dinosaurs?",
+    "choices": ["Kem Kem Beds", "Morrison Formation", "Yixian Formation", "Solnhofen Limestone"],
+    "answer": 2,
+    "explanation": "The Yixian Formation in Liaoning Province, China, preserved feathered dinosaurs like Sinosauropteryx and Microraptor in extraordinary detail, thanks to fine volcanic ash burial."
+  },
+  {
+    "id": "m6q5",
+    "module": "06-fossils-discovery",
+    "question": "How long can preparation of a single dinosaur skull take?",
+    "choices": ["10–50 hours", "100–300 hours", "1,000–3,000 hours", "10,000+ hours"],
+    "answer": 2,
+    "explanation": "A single large dinosaur skull may require 1,000–3,000 hours of meticulous mechanical and chemical preparation under binocular microscopes."
+  },
+  {
+    "id": "m6q6",
+    "module": "06-fossils-discovery",
+    "question": "What are the ICZN rules primarily concerned with?",
+    "choices": ["Fossil ownership and export laws", "The formal naming and classification of animal species", "Museum display standards", "Environmental protection of fossil sites"],
+    "answer": 1,
+    "explanation": "The International Code of Zoological Nomenclature (ICZN) governs the formal rules for naming animal species, including requirements for holotype designation, diagnosis, and publication."
+  },
+  {
+    "id": "m6q7",
+    "module": "06-fossils-discovery",
+    "question": "Why does the Society of Vertebrate Paleontology (SVP) recommend type specimens be housed in public institutions?",
+    "choices": ["Public institutions have better climate control", "To ensure permanent scientific access and reproducibility of research", "Federal law requires it in all countries", "Private collectors cannot properly prepare fossils"],
+    "answer": 1,
+    "explanation": "Scientific studies must be reproducible, which requires ongoing access to type specimens. Private collections can be sold, access restricted, or conservation neglected — undermining the integrity of published research."
+  },
+  {
+    "id": "m6q8",
+    "module": "06-fossils-discovery",
+    "question": "The 'Bone Wars' of the late 19th century took place primarily in which formation?",
+    "choices": ["Hell Creek Formation", "Morrison Formation", "Dinosaur Provincial Park", "Solnhofen Limestone"],
+    "answer": 1,
+    "explanation": "The rivalry between Marsh and Cope — the 'Bone Wars' — centred on the Morrison Formation of the western United States, yielding iconic Jurassic dinosaurs like Allosaurus, Stegosaurus, and Diplodocus."
+  },
+  {
+    "id": "m6q9",
+    "module": "06-fossils-discovery",
+    "question": "What high-profile Tarbosaurus skeleton was repatriated to Mongolia after being seized at auction?",
+    "choices": ["An illegal export seized in New York in 2012", "A specimen donated by a private collector", "A skeleton found in international waters", "A cast that was mistakenly identified as original"],
+    "answer": 0,
+    "explanation": "A nearly complete Tarbosaurus bataar skeleton was seized at a New York auction in 2012 after it was proven to have been illegally exported from Mongolia, and was subsequently repatriated."
+  },
+  {
+    "id": "m6q10",
+    "module": "06-fossils-discovery",
+    "question": "What technology allows researchers to study internal skull anatomy without physically removing rock?",
+    "choices": ["Acetic acid dissolution", "Ground-penetrating radar", "CT scanning and digital segmentation", "Ultraviolet fluorescence"],
+    "answer": 2,
+    "explanation": "Computed tomography (CT) scanning and digital segmentation software allow non-invasive study of internal structures like brain cavities, inner ears, and pneumatic features without removing any matrix."
+  }
+]

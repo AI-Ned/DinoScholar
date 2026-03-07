@@ -1,0 +1,82 @@
+[
+  {
+    "id": "m5q1",
+    "module": "05-great-extinction",
+    "question": "What element, found enriched at the K–Pg boundary, first suggested an extraterrestrial impact?",
+    "choices": ["Gold", "Platinum", "Iridium", "Uranium"],
+    "answer": 2,
+    "explanation": "Iridium, rare in Earth's crust but common in asteroids, was found at 30–130 times background levels in the K–Pg boundary clay by the Alvarez team in 1980."
+  },
+  {
+    "id": "m5q2",
+    "module": "05-great-extinction",
+    "question": "How large was the Chicxulub impactor?",
+    "choices": ["1–2 km diameter", "5–6 km diameter", "10–12 km diameter", "50–60 km diameter"],
+    "answer": 2,
+    "explanation": "The asteroid was approximately 10–12 kilometres in diameter, creating a ~180 km wide crater."
+  },
+  {
+    "id": "m5q3",
+    "module": "05-great-extinction",
+    "question": "What is 'shocked quartz' and why is it significant at the K–Pg boundary?",
+    "choices": ["Quartz heated by volcanoes — shows eruption temperature", "Quartz with parallel deformation lamellae from extreme pressure — diagnostic of impacts", "Quartz that has been electrically charged — indicates lightning strikes", "Quartz dissolved by acid rain — shows atmospheric chemistry"],
+    "answer": 1,
+    "explanation": "Shocked quartz displays planar deformation features (PDFs) caused by pressures >10 GPa, achievable only by hypervelocity impacts or nuclear detonations — not volcanic processes."
+  },
+  {
+    "id": "m5q4",
+    "module": "05-great-extinction",
+    "question": "What is the 'press-pulse' model of the K–Pg extinction?",
+    "choices": ["Two separate asteroid impacts in quick succession", "Deccan volcanism weakened ecosystems (press), then the impact delivered the killing blow (pulse)", "Gradual sea-level drop (press) followed by rapid cooling (pulse)", "Ocean acidification (press) followed by volcanic eruptions (pulse)"],
+    "answer": 1,
+    "explanation": "The press-pulse model proposes that Deccan volcanism created long-term environmental stress (the 'press'), making ecosystems vulnerable, and the Chicxulub impact then delivered the lethal 'pulse.'"
+  },
+  {
+    "id": "m5q5",
+    "module": "05-great-extinction",
+    "question": "What does the 'fern spike' immediately above the K–Pg boundary indicate?",
+    "choices": ["A period of extreme heat that favoured ferns", "Devastated landscapes being colonised by pioneer fern species", "Ferns evolving to resist impact winter conditions", "Increased rainfall creating fern-friendly conditions"],
+    "answer": 1,
+    "explanation": "Ferns are pioneer colonisers of disturbed landscapes. The dominance of fern spores just above the boundary indicates that complex plant communities had been destroyed and ferns were the first to recolonise."
+  },
+  {
+    "id": "m5q6",
+    "module": "05-great-extinction",
+    "question": "What percentage of all species went extinct at the K–Pg boundary?",
+    "choices": ["About 50%", "About 65%", "About 76%", "About 96%"],
+    "answer": 2,
+    "explanation": "Approximately 76% of all species went extinct. (The 96% figure refers to the earlier end-Permian extinction.)"
+  },
+  {
+    "id": "m5q7",
+    "module": "05-great-extinction",
+    "question": "How long did it take for mammals to diversify into most modern orders after the extinction?",
+    "choices": ["About 100,000 years", "About 1 million years", "About 10 million years", "About 50 million years"],
+    "answer": 2,
+    "explanation": "Within roughly 10 million years of the extinction, mammals had diversified into most modern orders including primates, rodents, carnivores, ungulates, bats, and even early whales."
+  },
+  {
+    "id": "m5q8",
+    "module": "05-great-extinction",
+    "question": "Which other mass extinctions are associated with Large Igneous Provinces but NOT with confirmed impacts?",
+    "choices": ["End-Ordovician and Late Devonian only", "End-Permian and End-Triassic", "End-Cretaceous only", "None — all mass extinctions have confirmed impacts"],
+    "answer": 1,
+    "explanation": "The End-Permian (Siberian Traps) and End-Triassic (Central Atlantic Magmatic Province) extinctions are linked to massive volcanism but lack confirmed large impact events."
+  },
+  {
+    "id": "m5q9",
+    "module": "05-great-extinction",
+    "question": "What ecological concept explains the rapid diversification of mammals after the dinosaur extinction?",
+    "choices": ["Adaptive radiation through ecological release", "Convergent evolution", "Genetic drift", "Competitive exclusion"],
+    "answer": 0,
+    "explanation": "Ecological release occurs when the removal of dominant competitors (dinosaurs) allows surviving groups (mammals) to rapidly diversify into vacated niches — a textbook case of adaptive radiation."
+  },
+  {
+    "id": "m5q10",
+    "module": "05-great-extinction",
+    "question": "Where is the Global Boundary Stratotype Section and Point (GSSP) for the K–Pg boundary?",
+    "choices": ["Gubbio, Italy", "El Kef, Tunisia", "Hell Creek, Montana", "Chicxulub, Mexico"],
+    "answer": 1,
+    "explanation": "The official GSSP for the K–Pg boundary is at El Kef, Tunisia, chosen for its continuous marine sedimentation and well-preserved boundary markers."
+  }
+]

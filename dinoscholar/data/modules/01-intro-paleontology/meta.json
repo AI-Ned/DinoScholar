@@ -1,0 +1,13 @@
+{
+  "id": "01-intro-paleontology",
+  "title": "Introduction to Paleontology",
+  "description": "Discover what paleontology is, how it works, and why dinosaurs continue to captivate scientists and the public alike. This foundational module sets the stage for everything that follows.",
+  "order": 1,
+  "lessons": [
+    {"file": "01-what-is-paleontology.md", "title": "What Is Paleontology?", "order": 1},
+    {"file": "02-how-fossils-form.md", "title": "How Fossils Form", "order": 2},
+    {"file": "03-deep-time.md", "title": "Understanding Deep Time", "order": 3},
+    {"file": "04-classifying-dinosaurs.md", "title": "Classifying Dinosaurs", "order": 4},
+    {"file": "05-history-of-discovery.md", "title": "A History of Discovery", "order": 5}
+  ]
+}

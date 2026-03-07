@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Glossary — DinoScholar{% endblock %}
+{% block content %}
+<h1>Glossary</h1>
+<form class="mb-4" method="get">
+    <div class="input-group" style="max-width: 500px;">
+        <input type="text" name="q" class="form-control" placeholder="Search terms..." value="{{ query }}">
+        <button class="btn btn-outline-secondary" type="submit">Search</button>
+    </div>
+</form>
+
+{% if terms %}
+<div class="list-group">
+{% for t in terms %}
+    <a href="{{ url_for('main.glossary_term', term_id=t.id) }}" class="list-group-item list-group-item-action">
+        <strong>{{ t.term }}</strong> — {{ t.definition[:120] }}{% if t.definition|length > 120 %}...{% endif %}
+    </a>
+{% endfor %}
+</div>
+{% else %}
+<p class="text-muted">No glossary terms found.</p>
+{% endif %}
+{% endblock %}

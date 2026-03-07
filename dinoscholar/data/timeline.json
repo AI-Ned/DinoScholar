@@ -1,0 +1,165 @@
+[
+  {
+    "id": "triassic",
+    "name": "Triassic Period",
+    "start_mya": 251.9,
+    "end_mya": 201.4,
+    "era": "Mesozoic",
+    "color": "#e74c3c",
+    "summary": "The Triassic (251.9–201.4 Mya) was the opening act of the Mesozoic Era. Following the devastating Permian–Triassic extinction — the worst mass extinction in Earth's history, which killed over 90% of marine species — life slowly recovered and diversified. By the mid-to-late Triassic, the first dinosaurs appeared as small, bipedal predators. Mammals, turtles, crocodylomorphs, and pterosaurs all originated in this period. The supercontinent Pangaea was still largely intact, giving land animals the ability to roam across most of the world's landmass.",
+    "climate": "Generally hot and dry, with extreme seasonality. No polar ice caps existed. Interior Pangaea experienced harsh, arid conditions.",
+    "key_events": [
+      "Recovery from the Permian–Triassic mass extinction",
+      "First dinosaurs appear (~230 Mya)",
+      "First mammals evolve (~225 Mya)",
+      "First pterosaurs take flight",
+      "Pangaea begins to rift apart",
+      "End-Triassic extinction event (~201 Mya)"
+    ],
+    "notable_species": ["coelophysis-bauri", "plateosaurus-engelhardti"]
+  },
+  {
+    "id": "early-jurassic",
+    "name": "Early Jurassic",
+    "start_mya": 201.4,
+    "end_mya": 174.7,
+    "era": "Mesozoic",
+    "color": "#2ecc71",
+    "summary": "The Early Jurassic followed the end-Triassic extinction, which eliminated many competing groups and allowed dinosaurs to diversify rapidly. Sea levels rose, flooding previously arid continental interiors and creating more humid environments. The first large predatory dinosaurs appeared, and sauropodomorphs began their evolutionary journey toward gigantic sizes. Dinosaurs started to dominate terrestrial ecosystems worldwide.",
+    "climate": "Warmer and more humid than the Triassic. Increased rainfall supported lush vegetation across many former deserts.",
+    "key_events": [
+      "Dinosaurs diversify after end-Triassic extinction",
+      "First large theropods appear",
+      "Sauropodomorphs increase in size",
+      "Pangaea continues to break apart — North Atlantic begins opening",
+      "Widespread marine transgressions"
+    ],
+    "notable_species": ["dilophosaurus-wetherilli"]
+  },
+  {
+    "id": "middle-jurassic",
+    "name": "Middle Jurassic",
+    "start_mya": 174.7,
+    "end_mya": 161.5,
+    "era": "Mesozoic",
+    "color": "#27ae60",
+    "summary": "The Middle Jurassic is sometimes called the 'dark ages' of dinosaur paleontology because relatively few fossils are known from this interval. However, it was a critical period of diversification. Major dinosaur groups including the stegosaurs, ankylosaurs, and advanced theropods were radiating. The breakup of Pangaea accelerated, with Gondwana separating from Laurasia. Marine ecosystems thrived with diverse ichthyosaurs and plesiosaurs.",
+    "climate": "Warm and stable, with no polar ice. Extensive shallow seas supported reef ecosystems.",
+    "key_events": [
+      "Major dinosaur diversification despite poor fossil record",
+      "Stegosaurs and ankylosaurs diversify",
+      "Gondwana separates from Laurasia",
+      "Forest ecosystems spread widely"
+    ],
+    "notable_species": []
+  },
+  {
+    "id": "late-jurassic",
+    "name": "Late Jurassic",
+    "start_mya": 161.5,
+    "end_mya": 145.0,
+    "era": "Mesozoic",
+    "color": "#1abc9c",
+    "summary": "The Late Jurassic was a golden age for dinosaurs, producing some of the most iconic species. The Morrison Formation of western North America alone has yielded Allosaurus, Stegosaurus, Diplodocus, Brachiosaurus, and many others. Giant sauropods reached their peak diversity and size. Archaeopteryx, the first known bird-like dinosaur, appeared in Jurassic Germany. The continuous breakup of Pangaea created new coastlines and shallow seas, diversifying habitats and driving speciation.",
+    "climate": "Warm and semi-arid in many areas. Seasonal variation was present but less extreme than the Triassic.",
+    "key_events": [
+      "Peak diversity of sauropod dinosaurs",
+      "Archaeopteryx — earliest bird-like dinosaur (~150 Mya)",
+      "Morrison Formation ecosystem: Allosaurus, Stegosaurus, Diplodocus",
+      "Onset of flowering plant evolution",
+      "Africa begins separating from South America"
+    ],
+    "notable_species": ["allosaurus-fragilis", "stegosaurus-stenops", "brachiosaurus-altithorax", "diplodocus-longus", "archaeopteryx-lithographica", "apatosaurus-ajax", "compsognathus-longipes", "kentrosaurus-aethiopicus", "giraffatitan-brancai", "barosaurus-lentus", "saurophaganax-maximus"]
+  },
+  {
+    "id": "early-cretaceous",
+    "name": "Early Cretaceous",
+    "start_mya": 145.0,
+    "end_mya": 100.5,
+    "era": "Mesozoic",
+    "color": "#3498db",
+    "summary": "The Early Cretaceous saw dramatic changes in terrestrial ecosystems. Flowering plants (angiosperms) appeared and began to diversify, fundamentally transforming landscapes. The breakup of Gondwana accelerated, isolating dinosaur populations on different landmasses and driving distinct evolutionary paths. Dromaeosaurids (raptors) diversified into many forms, while feathered dinosaurs are abundantly preserved in the Yixian Formation of China. The iguanodonts and early hadrosaurs evolved as important herbivores.",
+    "climate": "Generally warm with brief cool intervals. Increasing humidity in many regions as continental configuration changed.",
+    "key_events": [
+      "Flowering plants (angiosperms) appear and diversify",
+      "Gondwana fragments: Africa, South America, India, Australia drift apart",
+      "Dromaeosaurid dinosaurs diversify globally",
+      "Yixian Formation — exceptional feathered dinosaur preservation",
+      "Spinosaurid fish-hunters thrive in coastal environments"
+    ],
+    "notable_species": ["deinonychus-antirrhopus", "utahraptor-ostrommaysi", "iguanodon-bernissartensis", "baryonyx-walkeri", "microraptor-gui", "sinornithosaurus-millenii", "mantellisaurus-atherfieldensis", "suchomimus-tenerensis"]
+  },
+  {
+    "id": "late-cretaceous-cenomanian-turonian",
+    "name": "Late Cretaceous (Cenomanian–Turonian)",
+    "start_mya": 100.5,
+    "end_mya": 89.8,
+    "era": "Mesozoic",
+    "color": "#2980b9",
+    "summary": "The Cenomanian–Turonian stages of the Late Cretaceous featured some of the highest sea levels and temperatures of the entire Mesozoic. Shallow seas flooded continental interiors — the Western Interior Seaway split North America in two. The largest predatory dinosaurs including Spinosaurus, Giganotosaurus, and Carcharodontosaurus reached their peak. Pterosaurs like Pteranodon soared over warm seas rich with marine life.",
+    "climate": "Among the warmest intervals of the Mesozoic. Tropical and subtropical conditions extended to high latitudes. Global sea levels were at near-maximum.",
+    "key_events": [
+      "Highest sea levels of the Mesozoic",
+      "Western Interior Seaway floods central North America",
+      "Largest carnivorous dinosaurs thrive in Africa and South America",
+      "Spinosaurus — semi-aquatic giant predator",
+      "Cenomanian-Turonian thermal maximum / oceanic anoxic event"
+    ],
+    "notable_species": ["spinosaurus-aegyptiacus", "giganotosaurus-carolinii", "carcharodontosaurus-saharicus", "argentinosaur-huinculensis", "pteranodon-longiceps", "mapusaurus-roseae", "patagotitan-mayorum"]
+  },
+  {
+    "id": "late-cretaceous-campanian",
+    "name": "Late Cretaceous (Campanian)",
+    "start_mya": 83.6,
+    "end_mya": 72.1,
+    "era": "Mesozoic",
+    "color": "#8e44ad",
+    "summary": "The Campanian stage is one of the richest intervals for dinosaur fossils, particularly from the badlands of Alberta, Canada, and Montana, USA. Hadrosaurs (duck-billed dinosaurs) and ceratopsians (horned dinosaurs) were the dominant herbivores, displaying an explosion of ornamental crests, horns, and frills. Tyrannosaurs were present but had not yet reached their largest sizes. The diversity of the Dinosaur Park Formation of Alberta is unmatched.",
+    "climate": "Warm but cooling gradually. Seasonal variability increasing. The Western Interior Seaway was beginning to retreat.",
+    "key_events": [
+      "Peak diversity of hadrosaurid (duck-billed) and ceratopsian (horned) dinosaurs",
+      "Elaborate crests, horns, and frills evolve for display",
+      "Tyrannosaurs diversify but remain mid-sized",
+      "Ankylosaurid armoured dinosaurs are common",
+      "Dinosaur Park Formation — one of the richest dinosaur fossil sites"
+    ],
+    "notable_species": ["parasaurolophus-walkeri", "styracosaurus-albertensis", "corythosaurus-casuarius", "gorgosaurus-libratus", "lambeosaurus-lambei", "euoplocephalus-tutus", "maiasaura-peeblesorum", "abelisaurus-comahuensis", "dreadnoughtus-schrani", "protoceratops-andrewsi", "velociraptor-mongoliensis", "oviraptor-philoceratops"]
+  },
+  {
+    "id": "late-cretaceous-maastrichtian",
+    "name": "Late Cretaceous (Maastrichtian)",
+    "start_mya": 72.1,
+    "end_mya": 66.0,
+    "era": "Mesozoic",
+    "color": "#9b59b6",
+    "summary": "The Maastrichtian is the final stage of the Cretaceous — and the final chapter of the age of dinosaurs. It featured iconic species like Tyrannosaurus rex, Triceratops, and Ankylosaurus. The Hell Creek Formation of Montana provides an extraordinary snapshot of this final ecosystem. The period ended with the Chicxulub asteroid impact 66 million years ago, which triggered the Cretaceous-Paleogene (K-Pg) mass extinction, wiping out all non-avian dinosaurs along with roughly 75% of all species.",
+    "climate": "Gradual cooling trend. Deccan Traps volcanic activity in India was already stressing ecosystems before the asteroid impact.",
+    "key_events": [
+      "Tyrannosaurus rex dominates North American ecosystems",
+      "Triceratops and Ankylosaurus are common herbivores",
+      "Flowering plants become dominant vegetation",
+      "Deccan Traps volcanism begins in India",
+      "Chicxulub asteroid impact — K-Pg mass extinction at 66 Mya",
+      "All non-avian dinosaurs go extinct"
+    ],
+    "notable_species": ["tyrannosaurus-rex", "triceratops-horridus", "ankylosaurus-magniventris", "edmontosaurus-annectens", "pachycephalosaurus-wyomingensis", "torosaurus-latus", "tarbosaurus-bataar", "albertosaurus-sarcophagus", "therizinosaurus-cheloniformis", "carnotaurus-sastrei", "gallimimus-bullatus", "stygimoloch-spinifer", "ornithomimus-edmontonicus"]
+  },
+  {
+    "id": "paleogene",
+    "name": "Paleogene Period",
+    "start_mya": 66.0,
+    "end_mya": 23.0,
+    "era": "Cenozoic",
+    "color": "#f39c12",
+    "summary": "Following the K-Pg extinction, the Paleogene saw the rapid radiation of mammals and birds into ecological niches vacated by non-avian dinosaurs. Within 10 million years, the ancestors of most modern mammal orders had appeared. Birds — the only surviving dinosaurs — diversified explosively, evolving into the enormous diversity we see today. The 'terror birds' (phorusrhacids) became apex predators in South America, showing that the dinosaur lineage continued to produce formidable predators.",
+    "climate": "Initially warm (Paleocene-Eocene Thermal Maximum), then gradual cooling. Antarctica began to glaciate late in the period.",
+    "key_events": [
+      "Mammals diversify rapidly after dinosaur extinction",
+      "Birds diversify into modern orders",
+      "Terror birds become apex predators in South America",
+      "Whales evolve from land-dwelling ancestors",
+      "Grasslands begin to spread"
+    ],
+    "notable_species": []
+  }
+]

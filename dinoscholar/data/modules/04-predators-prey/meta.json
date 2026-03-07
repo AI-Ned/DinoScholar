@@ -1,0 +1,13 @@
+{
+  "id": "04-predators-prey",
+  "title": "Predators & Prey",
+  "description": "The arms race between hunters and the hunted — how predatory strategies and defensive adaptations evolved in tandem throughout the Mesozoic.",
+  "order": 4,
+  "lessons": [
+    {"file": "01-tyrannosaur-dynasty.md", "title": "The Tyrannosaur Dynasty", "order": 1},
+    {"file": "02-raptor-pack.md", "title": "The Raptor Pack: Dromaeosaurids", "order": 2},
+    {"file": "03-southern-killers.md", "title": "Southern Killers: Abelisaurids & Carcharodontosaurids", "order": 3},
+    {"file": "04-defence-strategies.md", "title": "Defence Strategies", "order": 4},
+    {"file": "05-hunters-of-the-deep.md", "title": "Hunters of Rivers and Coasts", "order": 5}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "05-great-extinction",
+  "title": "The Great Extinction",
+  "description": "The end-Cretaceous mass extinction — what caused it, how we know, what survived, and how life recovered.",
+  "order": 5,
+  "lessons": [
+    {"file": "01-chicxulub-impact.md", "title": "The Chicxulub Impact", "order": 1},
+    {"file": "02-deccan-traps.md", "title": "Volcanism: The Deccan Traps", "order": 2},
+    {"file": "03-kpg-boundary.md", "title": "Reading the K-Pg Boundary", "order": 3},
+    {"file": "04-aftermath-recovery.md", "title": "Aftermath and Recovery", "order": 4}
+  ]
+}

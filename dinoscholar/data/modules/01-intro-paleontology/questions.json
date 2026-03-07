@@ -1,0 +1,77 @@
+[
+  {
+    "module_id": "01-intro-paleontology",
+    "questions": [
+      {
+        "id": "m01q01",
+        "text": "Which branch of paleontology focuses specifically on ancient plants and fungi?",
+        "choices": ["Vertebrate paleontology", "Paleobotany", "Micropaleontology", "Paleoecology"],
+        "answer": 1,
+        "explanation": "Paleobotany is the branch of paleontology that studies ancient plants and fungi. Vertebrate paleontology studies animals with backbones, micropaleontology studies microscopic organisms, and paleoecology studies ancient ecosystems."
+      },
+      {
+        "id": "m01q02",
+        "text": "What is the most common type of fossilization for dinosaur bones?",
+        "choices": ["Replacement", "Compression", "Permineralization", "Amber preservation"],
+        "answer": 2,
+        "explanation": "Permineralization is the most common fossilization process for dinosaur bones. Mineral-rich groundwater seeps into porous bone tissue, depositing minerals in the microscopic spaces while preserving the original structure."
+      },
+      {
+        "id": "m01q03",
+        "text": "More time separates Stegosaurus from T. rex than separates T. rex from modern humans. True or false?",
+        "choices": ["True", "False"],
+        "answer": 0,
+        "explanation": "True! Stegosaurus lived ~155-150 Mya, while T. rex lived ~68-66 Mya — a gap of ~84 million years. T. rex is separated from us by only 66 million years."
+      },
+      {
+        "id": "m01q04",
+        "text": "What is taphonomy?",
+        "choices": ["The study of dinosaur taxonomy", "The study of what happens to organisms between death and discovery", "The measurement of geological time periods", "The classification of trace fossils"],
+        "answer": 1,
+        "explanation": "Taphonomy is the study of the processes that affect organisms after death — decomposition, burial, fossilization, and preservation biases. It helps paleontologists interpret fossil sites."
+      },
+      {
+        "id": "m01q05",
+        "text": "Which two major orders are dinosaurs traditionally divided into?",
+        "choices": ["Theropoda and Sauropoda", "Saurischia and Ornithischia", "Carnivora and Herbivora", "Dinosauria and Pterosauria"],
+        "answer": 1,
+        "explanation": "Dinosaurs are divided into Saurischia ('lizard-hipped') and Ornithischia ('bird-hipped') based on pelvic structure. Ironically, birds evolved from the 'lizard-hipped' saurischians, not the 'bird-hipped' ornithischians."
+      },
+      {
+        "id": "m01q06",
+        "text": "Who coined the term 'Dinosauria' in 1842?",
+        "choices": ["Gideon Mantell", "William Buckland", "Richard Owen", "Charles Darwin"],
+        "answer": 2,
+        "explanation": "Richard Owen coined 'Dinosauria' ('terrible lizards') in 1842, recognizing that Megalosaurus, Iguanodon, and Hylaeosaurus represented a unique group of extinct reptiles."
+      },
+      {
+        "id": "m01q07",
+        "text": "Which dating method would be MOST appropriate for determining the age of a dinosaur fossil?",
+        "choices": ["Carbon-14 dating of the bone", "Potassium-Argon dating of surrounding volcanic rock", "Tree-ring counting", "Carbon-14 dating of surrounding sediment"],
+        "answer": 1,
+        "explanation": "Dinosaur bones are too old for Carbon-14 dating (max ~50,000 years). Instead, volcanic rock layers above and below the fossils are dated using methods like Potassium-Argon."
+      },
+      {
+        "id": "m01q08",
+        "text": "The 'Bone Wars' (1870s-1890s) was a rivalry between which two paleontologists?",
+        "choices": ["Owen and Mantell", "Marsh and Cope", "Bakker and Horner", "Brown and Andrews"],
+        "answer": 1,
+        "explanation": "The Bone Wars was the bitter rivalry between Othniel Charles Marsh and Edward Drinker Cope. Despite reckless practices, their competition led to the discovery of iconic species like Stegosaurus, Triceratops, and Diplodocus."
+      },
+      {
+        "id": "m01q09",
+        "text": "What key discovery sparked the 'Dinosaur Renaissance' of the 1960s-70s?",
+        "choices": ["First feathered dinosaur fossil in China", "Deinonychus — an agile, active predator", "The K-Pg iridium layer", "Dinosaur embryos in eggs"],
+        "answer": 1,
+        "explanation": "John Ostrom's description of Deinonychus in 1969 was the catalyst for the Dinosaur Renaissance. This agile predator challenged the prevailing view of dinosaurs as sluggish, cold-blooded animals."
+      },
+      {
+        "id": "m01q10",
+        "text": "In a cladistic classification, what does the term 'clade' refer to?",
+        "choices": ["Any group of similar-looking animals", "A group containing an ancestor and ALL of its descendants", "Animals that live in the same time period", "A group defined by shared primitive features"],
+        "answer": 1,
+        "explanation": "A clade is a group consisting of an ancestor and all of its descendants — a complete branch of the evolutionary tree. Dinosauria is a clade that includes birds because birds descended from dinosaurs."
+      }
+    ]
+  }
+]

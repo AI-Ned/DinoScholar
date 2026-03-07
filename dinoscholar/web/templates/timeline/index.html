@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block title %}Geological Timeline — DinoScholar{% endblock %}
+{% block head %}
+<style>
+    .timeline-bar { display: flex; border-radius: 8px; overflow: hidden; min-height: 60px; }
+    .timeline-period {
+        display: flex; align-items: center; justify-content: center;
+        color: #fff; font-size: 0.8rem; text-align: center; padding: 4px;
+        cursor: pointer; transition: opacity 0.2s;
+        text-decoration: none;
+    }
+    .timeline-period:hover { opacity: 0.8; color: #fff; }
+    .era-label { font-weight: bold; font-size: 0.9rem; margin-bottom: 4px; }
+</style>
+{% endblock %}
+{% block content %}
+<h1>Geological Timeline</h1>
+<p class="text-muted">Click a period to explore its details, climate, and dominant species.</p>
+
+{% set colors = ['#8B0000', '#B22222', '#CD5C5C', '#DC143C', '#FF6347', '#FF4500', '#FF8C00', '#FFA500', '#DAA520', '#BDB76B', '#6B8E23', '#556B2F', '#228B22', '#2E8B57', '#20B2AA', '#008B8B', '#4682B4', '#4169E1', '#6A5ACD', '#7B68EE'] %}
+{% if periods %}
+{% set total_mya = total_span[0] - total_span[1] %}
+
+<div class="mb-2">
+    <small class="text-muted">{{ total_span[0] }} MYA → {{ total_span[1] }} MYA</small>
+</div>
+
+<div class="timeline-bar mb-4">
+{% for p in periods %}
+    {% set width = ((p.start_mya - p.end_mya) / total_mya * 100) if total_mya > 0 else 10 %}
+    <a href="{{ url_for('timeline.period_detail', period_id=p.id) }}"
+       class="timeline-period"
+       style="width: {{ width }}%; background-color: {{ colors[loop.index0 % colors|length] }};"
+       title="{{ p.name }} ({{ p.start_mya }}–{{ p.end_mya }} MYA)">
+        {{ p.name }}
+    </a>
+{% endfor %}
+</div>
+
+<h2>Periods</h2>
+<div class="row g-3">
+{% for p in periods %}
+<div class="col-md-4">
+    <div class="card h-100">
+        <div class="card-header" style="background-color: {{ colors[loop.index0 % colors|length] }}; color: white;">
+            {{ p.name }}
+        </div>
+        <div class="card-body">
+            <p><strong>Era:</strong> {{ p.era }}</p>
+            <p><strong>Date range:</strong> {{ p.start_mya }}–{{ p.end_mya }} MYA</p>
+            <p>{{ p.description[:150] }}{% if p.description|length > 150 %}...{% endif %}</p>
+            <a href="{{ url_for('timeline.period_detail', period_id=p.id) }}" class="btn btn-sm btn-outline-primary">Explore</a>
+        </div>
+    </div>
+</div>
+{% endfor %}
+</div>
+{% else %}
+<p class="text-muted">No timeline data available yet.</p>
+{% endif %}
+{% endblock %}

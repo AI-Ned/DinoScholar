@@ -1,0 +1,77 @@
+[
+  {
+    "module_id": "03-anatomy-physiology",
+    "questions": [
+      {
+        "id": "m03q01",
+        "text": "What key skeletal innovation gave dinosaurs an advantage over earlier reptiles?",
+        "choices": ["Hollow bones", "Fully erect posture with legs directly beneath the body", "Larger skulls", "More vertebrae"],
+        "answer": 1,
+        "explanation": "The fully erect posture — legs held directly beneath the body rather than sprawling — was the key innovation. It enabled efficient locomotion, greater speed, and support for large body sizes."
+      },
+      {
+        "id": "m03q02",
+        "text": "What type of teeth did hadrosaurs (duck-billed dinosaurs) use to process vegetation?",
+        "choices": ["Peg-like teeth for stripping", "Sharp serrated teeth", "Dental batteries with hundreds of packed teeth", "Toothless beaks only"],
+        "answer": 2,
+        "explanation": "Hadrosaurs had dental batteries — hundreds of tightly-packed teeth in rows and columns, with worn teeth continuously replaced. This created an efficient grinding surface rivalling mammalian chewing."
+      },
+      {
+        "id": "m03q03",
+        "text": "What respiratory system feature did many dinosaurs share with modern birds?",
+        "choices": ["Diaphragm-based breathing", "Unidirectional air flow with air sacs", "Lungs that double as swim bladders", "Gill-like structures for aquatic breathing"],
+        "answer": 1,
+        "explanation": "Many dinosaurs shared the bird-like unidirectional flow-through respiratory system with air sacs. Pneumatic (air-filled) bones in theropods and sauropods provide evidence for this efficient breathing system."
+      },
+      {
+        "id": "m03q04",
+        "text": "What technology has revolutionized our understanding of dinosaur brain size and sensory abilities?",
+        "choices": ["Electron microscopy", "CT scanning", "Radio carbon dating", "DNA extraction"],
+        "answer": 1,
+        "explanation": "CT scanning creates detailed 3D images of fossil interiors without destructive sampling, revealing brain shapes, inner ear structures, and nasal passages that inform us about intelligence and sensory abilities."
+      },
+      {
+        "id": "m03q05",
+        "text": "What allowed scientists to determine the actual colour of Microraptor's plumage?",
+        "choices": ["Preserved pigment cells visible to the naked eye", "Fossilized melanosomes compared to modern bird feathers", "Chemical analysis of surrounding rock", "DNA analysis of feather shafts"],
+        "answer": 1,
+        "explanation": "Fossilized melanosomes (pigment-containing organelles) preserved in feathered dinosaur specimens can be compared to those in modern birds to reconstruct original colours. Microraptor was determined to be iridescent black."
+      },
+      {
+        "id": "m03q06",
+        "text": "During T. rex's adolescent growth spurt, approximately how much weight did it gain per day?",
+        "choices": ["100 grams", "500 grams", "2 kilograms", "10 kilograms"],
+        "answer": 2,
+        "explanation": "During the explosive growth spurt between ages 14–18, T. rex gained roughly 2 kg per day (~770 kg per year), reaching about 5,000 kg by age 18."
+      },
+      {
+        "id": "m03q07",
+        "text": "Which factor did NOT contribute to sauropods reaching their extreme sizes?",
+        "choices": ["Pneumatic (air-filled) bones", "Flow-through respiratory system", "Complex chewing to extract maximum nutrition", "Egg-laying reproduction"],
+        "answer": 2,
+        "explanation": "Sauropods actually did NOT chew — they swallowed food whole. This was an advantage because it eliminated the need for a heavy skull on a long neck. The absence of chewing was an enabling factor for gigantism."
+      },
+      {
+        "id": "m03q08",
+        "text": "What did the plates on Stegosaurus' back most likely help with?",
+        "choices": ["Armoured defence against predators", "Thermoregulation through blood vessel networks", "Camouflage in forest environments", "Sound production for communication"],
+        "answer": 1,
+        "explanation": "Stegosaurus plates had extensive blood vessel networks, strongly suggesting a thermoregulatory function — acting as radiators to shed or absorb heat. They were too fragile and poorly positioned for effective armour."
+      },
+      {
+        "id": "m03q09",
+        "text": "What term describes the strategy where very large animals maintain stable body temperatures through mass alone?",
+        "choices": ["Endothermy", "Ectothermy", "Gigantothermy", "Mesothermy"],
+        "answer": 2,
+        "explanation": "Gigantothermy is the maintenance of warm, stable body temperatures through large body mass alone, without requiring endothermic metabolism. Large sauropods likely used this strategy."
+      },
+      {
+        "id": "m03q10",
+        "text": "T. rex had binocular vision comparable to which modern animal?",
+        "choices": ["A goldfish", "A horse", "A hawk", "A frog"],
+        "answer": 2,
+        "explanation": "T. rex had forward-facing eyes providing binocular overlap comparable to a modern hawk, giving it excellent depth perception — a trait valuable for an active predator."
+      }
+    ]
+  }
+]

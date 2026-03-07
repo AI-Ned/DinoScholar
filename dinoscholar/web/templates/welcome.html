@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Welcome — DinoScholar{% endblock %}
+{% block content %}
+<div class="text-center py-5">
+    <h1 class="display-4">🦕 Welcome to DinoScholar</h1>
+    <p class="lead mt-3">Your journey into the world of dinosaurs starts here.</p>
+    <p class="text-muted">A rigorous, self-paced education platform for adults who want to explore paleontology, evolutionary biology, and the science of ancient life.</p>
+    <hr class="my-4">
+    <form action="{{ url_for('main.register') }}" method="post" class="d-inline-block">
+        <div class="input-group" style="max-width: 400px; margin: 0 auto;">
+            <input type="text" name="username" class="form-control" placeholder="Choose a username" required maxlength="50">
+            <button class="btn btn-success" type="submit">Get Started</button>
+        </div>
+    </form>
+</div>
+{% endblock %}

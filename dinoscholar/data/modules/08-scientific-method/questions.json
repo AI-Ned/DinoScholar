@@ -1,0 +1,82 @@
+[
+  {
+    "id": "m8q1",
+    "module": "08-scientific-method",
+    "question": "How do paleontologists test hypotheses when controlled experiments are impossible?",
+    "choices": ["They rely on authority and tradition", "They make predictions about evidence and then search for it", "They only use mathematical models", "Hypotheses in paleontology cannot be tested"],
+    "answer": 1,
+    "explanation": "Historical sciences like paleontology test hypotheses by predicting what evidence should exist if the hypothesis is true, then systematically searching for that evidence in the fossil record."
+  },
+  {
+    "id": "m8q2",
+    "module": "08-scientific-method",
+    "question": "What is fibrolamellar bone and what does it indicate?",
+    "choices": ["Slowly deposited bone indicating ectothermy", "Rapidly deposited, highly vascularised bone indicating fast growth and high metabolism", "Diseased bone tissue", "Bone found only in aquatic animals"],
+    "answer": 1,
+    "explanation": "Fibrolamellar bone is rapidly deposited, richly vascularised bone tissue associated with high metabolic rates and fast growth — found in most dinosaurs and modern mammals/birds."
+  },
+  {
+    "id": "m8q3",
+    "module": "08-scientific-method",
+    "question": "What is the 'lumper vs. splitter' debate in dinosaur taxonomy?",
+    "choices": ["A debate about how dinosaur bones should be divided during excavation", "A disagreement about whether fragmentary fossils warrant new species names", "A method for splitting rock during fossil preparation", "A debate about continental drift"],
+    "answer": 1,
+    "explanation": "Lumpers group fragmentary specimens into existing species, while splitters tend to name new species from relatively little material. This tension affects how many dinosaur species are considered valid."
+  },
+  {
+    "id": "m8q4",
+    "module": "08-scientific-method",
+    "question": "Why might Dracorex, Stygimoloch, and Pachycephalosaurus be the same species?",
+    "choices": ["They're found on the same continent", "CT scans show skull dome remodelling through growth — they may represent juvenile, sub-adult, and adult stages", "They have the same diet", "Their DNA sequences are identical"],
+    "answer": 1,
+    "explanation": "CT scans reveal that the Pachycephalosaurus dome progressively remodels from flat (Dracorex-like) to spiky (Stygimoloch-like) to fully domed — suggesting all three 'species' are growth stages of one animal."
+  },
+  {
+    "id": "m8q5",
+    "module": "08-scientific-method",
+    "question": "What did the Baron et al. (2017) study propose about dinosaur classification?",
+    "choices": ["Dinosaurs are not real reptiles", "Theropods may be more closely related to ornithischians than to sauropods (Ornithoscelida hypothesis)", "All dinosaurs were warm-blooded", "Pterosaurs should be classified as dinosaurs"],
+    "answer": 1,
+    "explanation": "Baron et al. proposed that the traditional Saurischia (theropods + sauropods) may not be a natural group, and that theropods are actually closer to ornithischians — forming a group called Ornithoscelida."
+  },
+  {
+    "id": "m8q6",
+    "module": "08-scientific-method",
+    "question": "What technology uses particle-accelerator X-rays to image fossils at extreme resolution?",
+    "choices": ["MRI scanning", "Synchrotron scanning", "Ultrasound", "Ground-penetrating radar"],
+    "answer": 1,
+    "explanation": "Synchrotron scanners use extremely bright, coherent X-rays from particle accelerators to image fossils at resolutions down to individual bone cells, distinguishing bone from rock even when densities are similar."
+  },
+  {
+    "id": "m8q7",
+    "module": "08-scientific-method",
+    "question": "What are Lines of Arrested Growth (LAGs) in fossil bone?",
+    "choices": ["Fracture lines from fossilisation pressure", "Annual growth rings that record the animal's age at death", "Lines where muscle attached to bone", "Marks left by scavenging animals"],
+    "answer": 1,
+    "explanation": "Lines of Arrested Growth (LAGs) are annual growth rings in bone tissue — analogous to tree rings — that record seasonal slowing of growth and allow paleontologists to determine age at death."
+  },
+  {
+    "id": "m8q8",
+    "module": "08-scientific-method",
+    "question": "What stable isotope ratio can indicate whether a dinosaur ate plants or meat?",
+    "choices": ["δ¹⁸O (oxygen-18)", "δ¹⁵N (nitrogen-15)", "δ²H (deuterium)", "δ⁵⁶Fe (iron-56)"],
+    "answer": 1,
+    "explanation": "δ¹⁵N values increase at higher trophic levels — herbivores have lower values than carnivores, providing a chemical indicator of dietary position."
+  },
+  {
+    "id": "m8q9",
+    "module": "08-scientific-method",
+    "question": "Approximately how many new dinosaur species are described per year in recent decades?",
+    "choices": ["About 5", "About 15", "About 50", "About 200"],
+    "answer": 2,
+    "explanation": "Approximately 50 new dinosaur species are described per year — an accelerating rate compared to ~10/year in the 1980s — driven by new discoveries particularly in China, Argentina, and Africa."
+  },
+  {
+    "id": "m8q10",
+    "module": "08-scientific-method",
+    "question": "Why is the fossil record described as 'deeply biased'?",
+    "choices": ["Scientists only look in certain countries", "Most environments don't produce fossils, most fossils are never exposed, and tropical ecosystems are almost unrepresented", "Fossils are only found in deserts", "Political borders prevent access to most sites"],
+    "answer": 1,
+    "explanation": "Only a fraction of environments produce fossils, only a fraction of fossils are exposed and found, and the most biodiverse modern environments (tropical forests) are almost absent from the dinosaur fossil record."
+  }
+]

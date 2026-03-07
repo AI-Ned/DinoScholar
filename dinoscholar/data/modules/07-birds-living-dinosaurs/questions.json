@@ -1,0 +1,82 @@
+[
+  {
+    "id": "m7q1",
+    "module": "07-birds-living-dinosaurs",
+    "question": "Who revived the dinosaur-bird hypothesis in 1969 after studying Deinonychus?",
+    "choices": ["Thomas Henry Huxley", "Gerhard Heilmann", "John Ostrom", "Roy Chapman Andrews"],
+    "answer": 2,
+    "explanation": "John Ostrom described Deinonychus in 1969 and recognised overwhelming anatomical similarities between dromaeosaurids and Archaeopteryx, reviving the theropod-origin hypothesis."
+  },
+  {
+    "id": "m7q2",
+    "module": "07-birds-living-dinosaurs",
+    "question": "Within the dinosaur family tree, birds are most closely related to which group?",
+    "choices": ["Tyrannosaurs", "Sauropods", "Dromaeosaurids and troodontids", "Ceratopsians"],
+    "answer": 2,
+    "explanation": "Birds (Avialae) are nested within Maniraptora, sharing a more recent common ancestor with dromaeosaurids and troodontids than with any other dinosaur group."
+  },
+  {
+    "id": "m7q3",
+    "module": "07-birds-living-dinosaurs",
+    "question": "What does WAIR stand for and why is it significant?",
+    "choices": ["Wing-Assisted Incline Running — shows how flapping wings aid running up slopes before full flight evolves", "Wind-Adjusted Intercontinental Routes — explains bird migration", "Wing-Angle Inversion Reflex — a neural adaptation for inverted flight", "None of these"],
+    "answer": 0,
+    "explanation": "Wing-Assisted Incline Running (WAIR) is observed in modern partridge chicks that flap their wings to run up steep surfaces before they can fly, providing a plausible evolutionary pathway to powered flight."
+  },
+  {
+    "id": "m7q4",
+    "module": "07-birds-living-dinosaurs",
+    "question": "What dinosaurs had bat-like membrane wings instead of feathered wings?",
+    "choices": ["Pterosaurs", "Dromaeosaurids", "Scansoriopterygids (Yi qi, Ambopteryx)", "Troodontids"],
+    "answer": 2,
+    "explanation": "Scansoriopterygids like Yi qi and Ambopteryx evolved membranous wings supported by an elongated finger, convergent with bats — a unique experiment in dinosaur flight that ultimately went extinct."
+  },
+  {
+    "id": "m7q5",
+    "module": "07-birds-living-dinosaurs",
+    "question": "What was the original function of feathers before flight evolved?",
+    "choices": ["Exclusively for flight", "Primarily insulation and display", "Waterproofing", "Sound production"],
+    "answer": 1,
+    "explanation": "Feathers first evolved for insulation (simple filaments trapping warm air) and display (elaborated structures for visual signalling). Aerodynamic functions came later in feather evolution."
+  },
+  {
+    "id": "m7q6",
+    "module": "07-birds-living-dinosaurs",
+    "question": "How can paleontologists determine the colour of fossilised feathers?",
+    "choices": ["By chemical analysis of pigment molecules", "By identifying the shape and arrangement of preserved melanosomes", "By comparing feather length to modern bird species", "Feather colour cannot be determined from fossils"],
+    "answer": 1,
+    "explanation": "Melanosomes — subcellular organelles that produce pigment — are preserved in some fossil feathers. Rod-shaped eumelanosomes indicate black/grey; spherical pheomelanosomes indicate reddish-brown. Their arrangement can even reveal iridescence."
+  },
+  {
+    "id": "m7q7",
+    "module": "07-birds-living-dinosaurs",
+    "question": "Which ornithischian dinosaur suggests that feather-like structures may be ancestral to all dinosaurs?",
+    "choices": ["Triceratops", "Kulindadromeus", "Stegosaurus", "Iguanodon"],
+    "answer": 1,
+    "explanation": "Kulindadromeus, a small ornithischian from Siberia, preserves filament-like integumentary structures, suggesting that proto-feathers may have been present in the common ancestor of all dinosaurs."
+  },
+  {
+    "id": "m7q8",
+    "module": "07-birds-living-dinosaurs",
+    "question": "What Archaeopteryx feature indicates it had limited flight capability compared to modern birds?",
+    "choices": ["It had feathers", "It lacked a keeled sternum for large flight muscle attachment", "It had hollow bones", "It had a furcula"],
+    "answer": 1,
+    "explanation": "Archaeopteryx lacked a keeled sternum — the bony ridge that anchors the powerful pectoralis muscles used for the downstroke in modern birds — suggesting its flapping ability was limited."
+  },
+  {
+    "id": "m7q9",
+    "module": "07-birds-living-dinosaurs",
+    "question": "What type of birds likely survived the K-Pg extinction?",
+    "choices": ["Large, canopy-dwelling frugivores", "Small, ground-dwelling seed-eaters", "Exclusively marine species", "Only flightless species"],
+    "answer": 1,
+    "explanation": "Survivors were likely small, ground-dwelling or semi-aquatic birds that could eat seeds (which persist in soil seed banks), rather than species dependent on forests or fresh fruit that were devastated."
+  },
+  {
+    "id": "m7q10",
+    "module": "07-birds-living-dinosaurs",
+    "question": "What evidence was found in a T. rex bone suggesting shared reproductive physiology with birds?",
+    "choices": ["Egg shell fragments inside the body cavity", "Medullary bone — a tissue found in egg-laying female birds", "Bird-like ovary impressions", "Fossilised yolk proteins"],
+    "answer": 1,
+    "explanation": "Medullary bone — a special calcium-rich tissue deposited inside long bones by female birds during egg production — has been identified in T. rex and other dinosaurs, suggesting shared reproductive physiology."
+  }
+]

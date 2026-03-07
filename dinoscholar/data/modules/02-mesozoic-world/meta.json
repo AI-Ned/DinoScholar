@@ -1,0 +1,14 @@
+{
+  "id": "02-mesozoic-world",
+  "title": "The Mesozoic World",
+  "description": "Journey through the three periods of the Mesozoic Era — Triassic, Jurassic, and Cretaceous — and discover how shifting continents and changing climates shaped dinosaur evolution.",
+  "order": 2,
+  "lessons": [
+    {"file": "01-triassic-dawn.md", "title": "Triassic: Dawn of the Dinosaurs", "order": 1},
+    {"file": "02-jurassic-giants.md", "title": "Jurassic: Age of Giants", "order": 2},
+    {"file": "03-cretaceous-peak.md", "title": "Cretaceous: Peak Diversity", "order": 3},
+    {"file": "04-shifting-continents.md", "title": "Shifting Continents", "order": 4},
+    {"file": "05-mesozoic-climate.md", "title": "Mesozoic Climate and Ecosystems", "order": 5},
+    {"file": "06-life-beyond-dinosaurs.md", "title": "Life Beyond Dinosaurs", "order": 6}
+  ]
+}

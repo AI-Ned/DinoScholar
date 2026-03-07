@@ -1,0 +1,12 @@
+{
+  "id": "07-birds-living-dinosaurs",
+  "title": "Birds: Living Dinosaurs",
+  "description": "The evolutionary link between theropod dinosaurs and modern birds — feathers, flight, and the evidence that dinosaurs never truly went extinct.",
+  "order": 7,
+  "lessons": [
+    {"file": "01-dinosaur-bird-link.md", "title": "The Dinosaur–Bird Link", "order": 1},
+    {"file": "02-evolution-of-flight.md", "title": "The Evolution of Flight", "order": 2},
+    {"file": "03-feather-evolution.md", "title": "Feather Evolution", "order": 3},
+    {"file": "04-modern-dinosaurs.md", "title": "Modern Dinosaurs Among Us", "order": 4}
+  ]
+}

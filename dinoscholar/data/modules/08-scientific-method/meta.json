@@ -1,0 +1,12 @@
+{
+  "id": "08-scientific-method",
+  "title": "Scientific Method in Paleontology",
+  "description": "How paleontologists test hypotheses, resolve debates, and advance knowledge — the living scientific process behind the fossils.",
+  "order": 8,
+  "lessons": [
+    {"file": "01-hypothesis-testing.md", "title": "Hypothesis Testing with Fossils", "order": 1},
+    {"file": "02-classification-debates.md", "title": "Classification Debates", "order": 2},
+    {"file": "03-new-technologies.md", "title": "New Technologies Reshaping the Field", "order": 3},
+    {"file": "04-open-questions.md", "title": "Open Questions in Dinosaur Science", "order": 4}
+  ]
+}

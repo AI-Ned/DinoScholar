@@ -1,0 +1,13 @@
+{
+  "id": "06-fossils-discovery",
+  "title": "Fossils: Discovery to Display",
+  "description": "The full journey of a fossil — from initial discovery in the field through scientific preparation, research, and museum exhibition.",
+  "order": 6,
+  "lessons": [
+    {"file": "01-fieldwork.md", "title": "Fieldwork: Finding Fossils", "order": 1},
+    {"file": "02-excavation-preparation.md", "title": "Excavation and Preparation", "order": 2},
+    {"file": "03-famous-fossil-sites.md", "title": "Famous Fossil Sites", "order": 3},
+    {"file": "04-museum-science.md", "title": "From Laboratory to Museum", "order": 4},
+    {"file": "05-ethics-ownership.md", "title": "Ethics and Fossil Ownership", "order": 5}
+  ]
+}

@@ -1,0 +1,27 @@
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.lesson-content {
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+.lesson-content h1, .lesson-content h2, .lesson-content h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.glossary-term {
+    border-bottom: 1px dotted #6c757d;
+    cursor: help;
+}
+
+.question-card .feedback {
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+
+.timeline-bar {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}

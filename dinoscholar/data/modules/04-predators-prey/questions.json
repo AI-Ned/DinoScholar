@@ -1,0 +1,82 @@
+[
+  {
+    "id": "m4q1",
+    "module": "04-predators-prey",
+    "question": "Approximately how long did the tyrannosaur lineage exist before rising to apex-predator status?",
+    "choices": ["10 million years", "50 million years", "100 million years", "200 million years"],
+    "answer": 2,
+    "explanation": "The earliest tyrannosaurs appeared around 165 Mya, but they only became apex predators around 80 Mya — roughly 85–100 million years spent as small-to-mid-sized predators."
+  },
+  {
+    "id": "m4q2",
+    "module": "04-predators-prey",
+    "question": "What is the primary function now attributed to the dromaeosaurid sickle claw?",
+    "choices": ["Slashing open prey's belly", "Pinning and restraining prey", "Digging burrows", "Climbing trees exclusively"],
+    "answer": 1,
+    "explanation": "Biomechanical studies suggest the claw functioned more like a raptor bird's talon — puncturing and gripping prey — rather than slashing."
+  },
+  {
+    "id": "m4q3",
+    "module": "04-predators-prey",
+    "question": "What famous fossil preserves a Velociraptor and Protoceratops locked in combat?",
+    "choices": ["The Rosetta Bone", "The Fighting Dinosaurs", "The Dueling Predators", "The Gobi Gladiators"],
+    "answer": 1,
+    "explanation": "The 'Fighting Dinosaurs' specimen from Mongolia's Djadochta Formation captures a Velociraptor and Protoceratops that died mid-combat, likely buried by a collapsing sand dune."
+  },
+  {
+    "id": "m4q4",
+    "module": "04-predators-prey",
+    "question": "Which predatory dinosaur family dominated Gondwana in the Late Cretaceous?",
+    "choices": ["Tyrannosauridae", "Carcharodontosauridae", "Abelisauridae", "Dromaeosauridae"],
+    "answer": 2,
+    "explanation": "Abelisaurids like Carnotaurus and Majungasaurus were the apex predators of the Gondwanan continents in the Late Cretaceous, after carcharodontosaurids declined."
+  },
+  {
+    "id": "m4q5",
+    "module": "04-predators-prey",
+    "question": "What direct evidence confirms that Majungasaurus practised cannibalism?",
+    "choices": ["Gut contents showing Majungasaurus bones", "Tooth-marked Majungasaurus bones matching Majungasaurus teeth", "Preserved coprolites with Majungasaurus DNA", "Nesting sites with consumed juvenile remains"],
+    "answer": 1,
+    "explanation": "Majungasaurus bones bearing distinctive tooth marks matching the teeth of other Majungasaurus individuals provide unambiguous evidence of cannibalism."
+  },
+  {
+    "id": "m4q6",
+    "module": "04-predators-prey",
+    "question": "What does the preserved pigmentation of Borealopelta reveal about its defence strategy?",
+    "choices": ["Bright warning colours", "Countershading camouflage", "Disruptive stripe patterns", "UV-reflective patterns"],
+    "answer": 1,
+    "explanation": "Borealopelta preserves melanin pigments showing countershading — darker on top, lighter below — a camouflage pattern that implies strong predation pressure even on a 1,300 kg armoured animal."
+  },
+  {
+    "id": "m4q7",
+    "module": "04-predators-prey",
+    "question": "What is the 'thagomizer'?",
+    "choices": ["The tail club of an ankylosaur", "The nose horn of a ceratopsian", "The tail spikes of a stegosaur", "The sickle claw of a dromaeosaurid"],
+    "answer": 2,
+    "explanation": "The thagomizer is the arrangement of tail spikes found in stegosaurs. The term originated from a Far Side cartoon and was subsequently adopted by paleontologists."
+  },
+  {
+    "id": "m4q8",
+    "module": "04-predators-prey",
+    "question": "What key adaptation allows Spinosaurus to stay submerged in water?",
+    "choices": ["Hollow pneumatic bones", "Osteosclerotic (abnormally dense) bones", "Air sacs connected to the lungs", "Extremely large body size"],
+    "answer": 1,
+    "explanation": "Spinosaurus had osteosclerotic (abnormally dense) long bones that reduced buoyancy, similar to the bone density seen in manatees and hippos."
+  },
+  {
+    "id": "m4q9",
+    "module": "04-predators-prey",
+    "question": "What gut contents were found with the original Baryonyx specimen?",
+    "choices": ["Only fish scales", "Only dinosaur bones", "Both fish scales and juvenile Iguanodon bones", "Pterosaur wing bones"],
+    "answer": 2,
+    "explanation": "Baryonyx preserved both acid-etched fish scales and partially digested bones of a juvenile Iguanodon, showing it was an opportunistic predator."
+  },
+  {
+    "id": "m4q10",
+    "module": "04-predators-prey",
+    "question": "How did carcharodontosaurids' bite strategy differ from tyrannosaurs?",
+    "choices": ["They had a stronger bone-crushing bite", "They used blade-like teeth for flesh-slicing rather than bone-crushing", "They swallowed prey whole", "They used venom to subdue prey"],
+    "answer": 1,
+    "explanation": "Carcharodontosaurids had blade-like serrated teeth designed for slicing flesh and making wide debilitating wounds, in contrast to the bone-crushing bite of tyrannosaurs."
+  }
+]

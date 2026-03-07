@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}Quiz Results — DinoScholar{% endblock %}
+{% block content %}
+<h1>Quiz Results</h1>
+
+<div class="card mb-4">
+    <div class="card-body text-center">
+        <h2 class="{% if result.score == result.total %}text-success{% elif result.score >= result.total * 0.7 %}text-primary{% else %}text-danger{% endif %}">
+            {{ result.score }} / {{ result.total }}
+        </h2>
+        <p class="lead">
+            {% if result.total > 0 %}
+            {{ (result.score / result.total * 100)|round(1) }}%
+            {% endif %}
+        </p>
+        {% if result.duration_sec %}
+        <p class="text-muted">Completed in {{ result.duration_sec // 60 }}m {{ result.duration_sec % 60 }}s</p>
+        {% endif %}
+    </div>
+</div>
+
+<h3>Review</h3>
+{% for q in result.questions %}
+<div class="card mb-3 border-{% if result.correct_answers[loop.index0] %}success{% else %}danger{% endif %}">
+    <div class="card-body">
+        <p><strong>{{ loop.index }}.</strong> {{ q.question }}</p>
+        {% if q.options %}
+        <ul class="list-unstyled">
+        {% for opt in q.options %}
+            <li>
+                {% if loop.index0 == q.correct %}✅{% elif loop.index0|string == result.answers[loop.parent.loop.index0]|string %}❌{% else %}⬜{% endif %}
+                {{ opt }}
+            </li>
+        {% endfor %}
+        </ul>
+        {% else %}
+        <p>Your answer: <strong>{{ result.answers[loop.index0] }}</strong>
+            {% if result.correct_answers[loop.index0] %}✅{% else %}❌ (Correct: {{ q.correct }}){% endif %}
+        </p>
+        {% endif %}
+        <div class="alert alert-light mt-2">{{ q.explanation }}</div>
+    </div>
+</div>
+{% endfor %}
+
+<div class="mt-3">
+    <a href="{{ url_for('quiz.hub') }}" class="btn btn-primary">Back to Quiz Hub</a>
+    <a href="{{ url_for('main.dashboard') }}" class="btn btn-outline-secondary">Dashboard</a>
+</div>
+{% endblock %}
