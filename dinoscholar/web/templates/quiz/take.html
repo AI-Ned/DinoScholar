@@ -10,7 +10,11 @@
 {% endblock %}
 {% block content %}
 
+
 {% if timed %}
+<div class="alert alert-danger text-center fs-5 mb-3">
+    <strong>Note:</strong> The timed quiz is currently broken. Submitting answers may not work as expected.
+</div>
 <div id="timer" class="alert alert-dark text-center fs-4">
     Time remaining: <span id="countdown">{{ time_limit_sec // 60 }}:{{ '%02d' % (time_limit_sec % 60) }}</span>
 </div>
