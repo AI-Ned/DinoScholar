@@ -27,8 +27,9 @@
         {% if q.options %}
         <ul class="list-unstyled">
         {% for opt in q.options %}
+            {% set q_idx = loop.index0 %}
             <li>
-                {% if loop.index0 == q.correct %}✅{% elif loop.index0|string == result.answers[loop.parent.loop.index0]|string %}❌{% else %}⬜{% endif %}
+                {% if loop.index0 == q.correct %}✅{% elif loop.index0|string == result.answers[q_idx]|string %}❌{% else %}⬜{% endif %}
                 {{ opt }}
             </li>
         {% endfor %}

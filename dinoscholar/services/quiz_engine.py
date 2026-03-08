@@ -85,7 +85,10 @@ class QuizEngine:
         score = 0
         for q, a in zip(questions, answers):
             if q.type == "multiple_choice":
-                is_correct = int(a) == q.correct
+                try:
+                    is_correct = int(a) == q.correct
+                except (ValueError, TypeError):
+                    is_correct = False
             elif q.type == "true_false":
                 is_correct = str(a).lower() == str(q.correct).lower()
             else:
